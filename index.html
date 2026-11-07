@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salama! — Learn Malagasy</title>
+<meta name="description" content="A self-paced Malagasy course for beginners: 12 weeks, 36 sessions, 2,478 words, with audio.">
+<meta name="theme-color" content="#1a7a4a">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="media/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="media/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Salama!">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<svg class="sprite" aria-hidden="true" width="0" height="0">
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4v16l13 -8z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><path d="M6 5h4v14h-4z"/><path d="M14 5h4v14h-4z"/></symbol>
+  <symbol id="i-volume" viewBox="0 0 24 24"><path d="M15 8a5 5 0 0 1 0 8"/><path d="M17.7 4.3a10 10 0 0 1 0 15.4"/><path d="M6 15h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l3.5 -4.5h.5v14h-.5z"/></symbol>
+  <symbol id="i-muted" viewBox="0 0 24 24"><path d="M6 15h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l3.5 -4.5h.5v14h-.5z"/><path d="M16 10l4 4"/><path d="M20 10l-4 4"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12l5 5l10 -10"/></symbol>
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12l14 0"/><path d="M13 18l6 -6"/><path d="M13 6l6 6"/></symbol>
+  <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12l-14 0"/><path d="M11 18l-6 -6"/><path d="M11 6l-6 6"/></symbol>
+  <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="M9 6l6 6l-6 6"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7"/><path d="M21 21l-6 -6"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0"/><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0"/><path d="M3 6v13"/><path d="M12 6v13"/><path d="M21 6v13"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M16 3v4"/><path d="M8 3v4"/><path d="M4 11h16"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M8 17v-4"/><path d="M12 17v-8"/><path d="M16 17v-6"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"/><path d="M7 11l5 5l5 -5"/><path d="M12 4v12"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"/><path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"/></symbol>
+  <symbol id="i-sliders" viewBox="0 0 24 24"><circle cx="8" cy="6" r="2"/><circle cx="16" cy="12" r="2"/><circle cx="8" cy="18" r="2"/><path d="M10 6h10"/><path d="M4 12h10"/><path d="M10 18h10"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6l-12 12"/><path d="M6 6l12 12"/></symbol>
+  <symbol id="i-print" viewBox="0 0 24 24"><path d="M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2"/><path d="M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4"/><rect x="7" y="13" width="10" height="7"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 9h.01"/><path d="M11 12h1v4h1"/></symbol>
+</svg>
+
+<header class="site-header">
+  <div class="shell header-main">
+    <a class="brand" href="#/today">
+      <span class="brand-name">Salama!</span>
+      <span class="brand-sub">Vahiny Mianatra Malagasy</span>
+    </a>
+    <div class="header-tools">
+      <button class="tool" id="textSizeBtn" type="button" aria-live="polite">Text: normal</button>
+      <button class="tool" id="soundBtn" type="button" aria-pressed="true">
+        <svg class="icon" aria-hidden="true"><use href="#i-volume"/></svg>
+        <span id="soundLabel">Sound on</span>
+      </button>
+      <a class="tool" href="#/settings">
+        <svg class="icon" aria-hidden="true"><use href="#i-sliders"/></svg>
+        <span>Settings</span>
+      </a>
+    </div>
+  </div>
+  <nav class="appnav" aria-label="Sections">
+    <div class="shell appnav-inner">
+      <a href="#/today" data-nav="today"><span>Today</span></a>
+      <a href="#/course" data-nav="course"><span>Course</span></a>
+      <a href="#/reference/phrases" data-nav="reference"><span>Reference</span></a>
+      <a href="#/progress" data-nav="progress"><span>Progress</span></a>
+    </div>
+  </nav>
+</header>
+
+<main id="main" class="shell" tabindex="-1"></main>
+
+<footer class="site-footer">
+  <div class="shell">
+    <p><strong>Salama!</strong> — part of the Vahiny Mianatra Malagasy project. Lessons and curriculum are original.
+    Session audio is the public-domain Peace Corps Malagasy Language Lessons; single words and dialogue lines are
+    synthesised with Meta's MMS Malagasy voice (<code>facebook/mms-tts-mlg</code>, CC BY-NC 4.0). Some traveler
+    phrases and the pronunciation guide are adapted from Wikivoyage's Malagasy phrasebook (CC BY-SA 3.0).</p>
+  </div>
+</footer>
+
+<script src="data/content.js"></script>
+<script src="js/core.js"></script>
+<script src="js/speech.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/views/today.js"></script>
+<script src="js/views/course.js"></script>
+<script src="js/views/session.js"></script>
+<script src="js/views/review.js"></script>
+<script src="js/views/quiz.js"></script>
+<script src="js/views/words.js"></script>
+<script src="js/views/library.js"></script>
+<script src="js/views/progress.js"></script>
+<script src="js/views/settings.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
