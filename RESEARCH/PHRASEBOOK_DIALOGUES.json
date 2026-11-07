@@ -1,0 +1,1593 @@
+{
+  "meta": {
+    "title": "Vahiny Mianatra Malagasy — Survival Phrasebook & Dialogues",
+    "description": "The sentence and dialogue layer that pairs with VOCAB_THEMATIC.json. Phrases are grouped by real situation and ordered along the 12-week curriculum, each with a model mini-dialogue. Sources: Peace Corps Malagasy Language Lessons (public domain) and bako.blog lessons (used as reference for this original compilation).",
+    "version": "1.0",
+    "audience": "Elderly American beginner learner (absolute beginner, English speaker)"
+  },
+  "conventions": {
+    "fields": {
+      "id": "stable slug, unique within the group",
+      "mg": "official Malagasy",
+      "mg_tsm": "Tsimihety variant (only when it differs)",
+      "en": "English meaning",
+      "when_to_say": "the exact situation to use the phrase (optional)",
+      "note": "grammar or culture explanation (optional)"
+    },
+    "vos_warning": "Malagasy sentence order is VERB + OBJECT + SUBJECT: 'Mihinana vary aho' = lit. 'Eats rice I'. The phrases are safe to learn as WHOLE CHUNKS while the structure clicks into place later.",
+    "pronunciation_reminders": [
+      "a = FATHER, e = MADE, i = KEEP, o = POOL; final -y sounds like 'ee'.",
+      "Stress the NEXT-TO-LAST syllable: mi-SO-tro (drink), ve-LO-ma (goodbye).",
+      "No c, q, u, w, x in the Malagasy alphabet."
+    ]
+  },
+  "groups": [
+    {
+      "id": "greet_and_farewell",
+      "title": "Greeting & Saying Goodbye",
+      "curriculum_week": [
+        1
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_2.mp3"
+      ],
+      "bako_lessons": [
+        "intro 1a",
+        "intro 1b"
+      ],
+      "phrases": [
+        {
+          "id": "greet_hello",
+          "mg": "Salama!",
+          "en": "Hello!",
+          "note": "Works any time of day, to anyone."
+        },
+        {
+          "id": "greet_polite",
+          "mg": "Salama tompoko!",
+          "en": "Hello, sir/ma'am!",
+          "note": "The all-purpose polite greeting (most common in Mandritsara)."
+        },
+        {
+          "id": "greet_howareyou",
+          "mg": "Manao ahoana?",
+          "en": "How are you?",
+          "mg_tsm": "Manakory?",
+          "note": "Official; Tsimihety: 'Manakory?'"
+        },
+        {
+          "id": "greet_health",
+          "mg": "Fahasalamana?",
+          "en": "How are you? (after your health)",
+          "when_to_say": "Meeting someone you know, or an older person."
+        },
+        {
+          "id": "greet_reply",
+          "mg": "Tsara fa misaotra.",
+          "en": "I'm fine, thank you.",
+          "note": "The standard reply. Fa = but: 'fine BUT (only) thanks to you.'"
+        },
+        {
+          "id": "greet_whatsnew",
+          "mg": "Inona ny vaovao?",
+          "en": "What's new?",
+          "mg_tsm": "Ino vaovao?",
+          "when_to_say": "Right after the how-are-you exchange."
+        },
+        {
+          "id": "greet_nonew",
+          "mg": "Tsy misy vaovao.",
+          "en": "Nothing's new.",
+          "mg_tsm": "Tsisy vaovao.",
+          "note": "The modest standard answer."
+        },
+        {
+          "id": "greet_frontdoor",
+          "mg": "Haody!",
+          "en": "Hello! (at the door)",
+          "when_to_say": "Arriving at someone's house and you can't see them — like knocking."
+        },
+        {
+          "id": "greet_comein",
+          "mg": "Mandrosoa!",
+          "en": "Come in!",
+          "note": "Said by the host; also 'come and buy' at a market stall."
+        },
+        {
+          "id": "greet_sit",
+          "mg": "Mipetrapetraha!",
+          "en": "Have a seat!"
+        },
+        {
+          "id": "fare_bye",
+          "mg": "Veloma!",
+          "en": "Goodbye!",
+          "when_to_say": "Leaving; the one going says veloma."
+        },
+        {
+          "id": "fare_safe",
+          "mg": "Soava dia!",
+          "en": "Safe travels!",
+          "note": "Replied by the person staying behind: 'soa am-bifilana' = safe return!"
+        },
+        {
+          "id": "fare_seeyou",
+          "mg": "Mandrapihaona!",
+          "en": "See you later!",
+          "note": "Same day or next day."
+        },
+        {
+          "id": "fare_seeyou_soon",
+          "mg": "Rehefa avy eo!",
+          "en": "See you in a bit!",
+          "note": "When you'll meet again the same day."
+        },
+        {
+          "id": "fare_tomorrow",
+          "mg": "Veloma rahampitso koa!",
+          "en": "See you tomorrow!",
+          "mg_tsm": "Amarainy koa!"
+        },
+        {
+          "id": "fare_enjoy",
+          "mg": "Mazotoa!",
+          "en": "Enjoy! / have a good day!",
+          "note": "A versatile goodbye: before someone eats, rests, or works."
+        },
+        {
+          "id": "greet_meal",
+          "mg": "Mazotoa homana!",
+          "en": "Enjoy your meal!",
+          "mg_tsm": "Mazotoa homana",
+          "when_to_say": "Someone heads off to eat; reply 'Misaotra ianao koa.'"
+        }
+      ],
+      "dialogue": {
+        "title": "A visit to a friend's house (Bako intro 1a)",
+        "lines": [
+          {
+            "speaker": "You",
+            "mg": "Haody!",
+            "en": "Hello! (calling at the door)"
+          },
+          {
+            "speaker": "Host",
+            "mg": "Mandrosoa. Mipetrapetraha.",
+            "en": "Come in. Have a seat."
+          },
+          {
+            "speaker": "You",
+            "mg": "Salama tompoko.",
+            "en": "Hello, sir/ma'am."
+          },
+          {
+            "speaker": "Host",
+            "mg": "Salama tompoko. Manakory ianao?",
+            "en": "Hello. How are you?"
+          },
+          {
+            "speaker": "You",
+            "mg": "Tsara fa misaotra.",
+            "en": "Fine, thank you."
+          },
+          {
+            "speaker": "Host",
+            "mg": "Ino vaovao?",
+            "en": "What's new?"
+          },
+          {
+            "speaker": "You",
+            "mg": "Tsisy vaovao.",
+            "en": "Nothing's new."
+          }
+        ]
+      }
+    },
+    {
+      "id": "polite_words",
+      "title": "Politeness — Essential 'Please' Words",
+      "curriculum_week": [
+        1
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_2.mp3"
+      ],
+      "bako_lessons": [
+        "intro 2"
+      ],
+      "phrases": [
+        {
+          "id": "pol_thanks",
+          "mg": "Misaotra!",
+          "en": "Thank you!"
+        },
+        {
+          "id": "pol_thanks_big",
+          "mg": "Misaotra betsaka.",
+          "en": "Thank you very much."
+        },
+        {
+          "id": "pol_welcome_reply",
+          "mg": "Tsisy fisaorana.",
+          "en": "Not at all / don't mention it."
+        },
+        {
+          "id": "pol_please",
+          "mg": "Azafady!",
+          "en": "Please / excuse me / sorry / pardon",
+          "note": "The single most useful word in Malagasy politeness."
+        },
+        {
+          "id": "pol_pass",
+          "mg": "Azafady, aiza ianao?",
+          "en": "Excuse me, may I get by?",
+          "when_to_say": "Squeezing past someone — on a taxi-brousse, at the market."
+        },
+        {
+          "id": "pol_go_ahead",
+          "mg": "Ndao.",
+          "en": "Go ahead / after you."
+        },
+        {
+          "id": "pol_sorry",
+          "mg": "Miala tsiny!",
+          "en": "Sorry! (for a slip)",
+          "note": "Also in the Peace Corps lesson; azafady covers most apologies."
+        },
+        {
+          "id": "pol_no_problem",
+          "mg": "Tsy maninona.",
+          "en": "No problem / you're welcome."
+        },
+        {
+          "id": "pol_invitation",
+          "mg": "Mandrosoa!",
+          "en": "Come and join us! (to a meal)",
+          "when_to_say": "Whenever you pass people eating — they MUST invite you; you may politely decline."
+        },
+        {
+          "id": "pol_decline_meal",
+          "mg": "Misaotra, mazotoa.",
+          "en": "Thanks, enjoy yours.",
+          "note": "The graceful decline to a meal invitation."
+        },
+        {
+          "id": "pol_enough",
+          "mg": "Ampy izay!",
+          "en": "That's enough, thank you!",
+          "when_to_say": "Being served food or buying at the market."
+        },
+        {
+          "id": "pol_softener",
+          "mg": "Mba ...",
+          "en": "(softener) please, just ...",
+          "note": "Put 'mba' before a request to soften it: 'Mba omeo rano aho azafady.'"
+        }
+      ],
+      "dialogue": {
+        "title": "Passing politely (Bako intro 2)",
+        "lines": [
+          {
+            "speaker": "You",
+            "mg": "Azafady, aiza ianao?",
+            "en": "Excuse me, may I get by?"
+          },
+          {
+            "speaker": "Other",
+            "mg": "Ndao.",
+            "en": "Go ahead."
+          },
+          {
+            "speaker": "You",
+            "mg": "Misaotra.",
+            "en": "Thank you."
+          }
+        ]
+      }
+    },
+    {
+      "id": "introducing_yourself",
+      "title": "Introducing Yourself",
+      "curriculum_week": [
+        2
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_3.mp3"
+      ],
+      "bako_lessons": [
+        "intro 3"
+      ],
+      "phrases": [
+        {
+          "id": "intro_name_q",
+          "mg": "Iza no anaranao?",
+          "en": "What is your name?",
+          "note": "Lit. 'who is your name?'"
+        },
+        {
+          "id": "intro_name_a",
+          "mg": "___ no anarako.",
+          "en": "My name is ___.",
+          "mg_tsm": "Anarako ___."
+        },
+        {
+          "id": "intro_and_you",
+          "mg": "... ary ianao?",
+          "en": "... and you?",
+          "note": "Add to the end of any self-introduction fact."
+        },
+        {
+          "id": "intro_pleased",
+          "mg": "Faly mahalala anao!",
+          "en": "Pleased to meet you!",
+          "mg_tsm": "Faly mandray anao!",
+          "note": "Reply: 'Faly mahalala anao koa!'"
+        },
+        {
+          "id": "intro_from_q",
+          "mg": "Avy aiza ianao?",
+          "en": "Where are you from?"
+        },
+        {
+          "id": "intro_from_a",
+          "mg": "Avy any Etazonia aho.",
+          "en": "I'm from the United States."
+        },
+        {
+          "id": "intro_city",
+          "mg": "Avy any ___ aho.",
+          "en": "I'm from ___.",
+          "note": "Insert your city: 'Avy any Boston aho.'"
+        },
+        {
+          "id": "intro_job_q",
+          "mg": "Inona ny asanao?",
+          "en": "What do you do (for work)?"
+        },
+        {
+          "id": "intro_job_a",
+          "mg": "Mpiofana aho.",
+          "en": "I'm a trainee.",
+          "note": "Swap the job word: mpampianatra (teacher), mpivarotra (merchant)..."
+        },
+        {
+          "id": "intro_learn",
+          "mg": "Mianatra teny malagasy aho.",
+          "en": "I'm learning Malagasy.",
+          "note": "THE sentence of this whole course!"
+        },
+        {
+          "id": "intro_speak_q",
+          "mg": "Miteny malagasy ve ianao?",
+          "en": "Do you speak Malagasy?"
+        },
+        {
+          "id": "intro_speak_a",
+          "mg": "Kely fotsiny.",
+          "en": "Just a little.",
+          "note": "The humble answer everyone loves to hear."
+        },
+        {
+          "id": "intro_stay_q",
+          "mg": "Hipetraka aiza ianao?",
+          "en": "Where will you stay?"
+        },
+        {
+          "id": "intro_lives_q",
+          "mg": "Mipetraka aiza ianao?",
+          "en": "Where do you live?"
+        },
+        {
+          "id": "intro_live_a",
+          "mg": "Mipetraka eto Antananarivo aho.",
+          "en": "I live here in Antananarivo."
+        },
+        {
+          "id": "intro_marry_q",
+          "mg": "Manambady ve ianao?",
+          "en": "Are you married?"
+        },
+        {
+          "id": "intro_marry_a",
+          "mg": "Manambady aho. / Tsy manambady aho.",
+          "en": "I'm married. / I'm not married.",
+          "mg_tsm": "Manambady zaho."
+        },
+        {
+          "id": "intro_kids",
+          "mg": "Manana zanaka ___ aho.",
+          "en": "I have ___ (number) children.",
+          "note": "Or: 'Mananjanaka zahay' = we (exclusive) have children."
+        },
+        {
+          "id": "intro_kids_detail",
+          "mg": "Mananjanaka telo zahay: lahy iray, vavy roa.",
+          "en": "We have three children: one boy, two girls.",
+          "mg_tsm": "Mananjanaka telo zahay: lalahy iray, vaiavy roa."
+        },
+        {
+          "id": "intro_seeyou",
+          "mg": "Mandrapihaona!",
+          "en": "See you later!"
+        }
+      ],
+      "dialogue": {
+        "title": "Meeting a new friend (Peace Corps L3 + Bako intro 3)",
+        "lines": [
+          {
+            "speaker": "A",
+            "mg": "Salama tompoko! Manao ahoana?",
+            "en": "Hello! How are you?"
+          },
+          {
+            "speaker": "B",
+            "mg": "Tsara fa misaotra. Iza no anaranao?",
+            "en": "Fine, thanks. What is your name?"
+          },
+          {
+            "speaker": "A",
+            "mg": "Mary no anarako, ary ianao?",
+            "en": "My name is Mary, and you?"
+          },
+          {
+            "speaker": "B",
+            "mg": "Raiko aho. Faly mahalala anao!",
+            "en": "I'm Raiko. Pleased to meet you!"
+          },
+          {
+            "speaker": "A",
+            "mg": "Faly mahalala anao koa! Avy aiza ianao?",
+            "en": "Pleased to meet you too! Where are you from?"
+          },
+          {
+            "speaker": "B",
+            "mg": "Avy any Etazonia aho.",
+            "en": "I'm from the United States."
+          },
+          {
+            "speaker": "A",
+            "mg": "Miteny malagasy ve ianao?",
+            "en": "Do you speak Malagasy?"
+          },
+          {
+            "speaker": "B",
+            "mg": "Kely fotsiny!",
+            "en": "Just a little!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "market_shopping",
+      "title": "At the Market — Shopping",
+      "curriculum_week": [
+        3,
+        12
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_9.mp3"
+      ],
+      "bako_lessons": [
+        "intro 4"
+      ],
+      "phrases": [
+        {
+          "id": "mkt_hello",
+          "mg": "Haody!",
+          "en": "Hello! (calling for the vendor)",
+          "when_to_say": "You arrive at a stall and see no one — call haody!"
+        },
+        {
+          "id": "mkt_comebuy",
+          "mg": "Mandroso!",
+          "en": "Come and buy!",
+          "note": "The vendor's call to you; 'Mandrosoa' — go ahead and browse."
+        },
+        {
+          "id": "mkt_have_q",
+          "mg": "Misy ___ ve?",
+          "en": "Do you have ___?",
+          "note": "THE shopping question: 'Misy atody ve?' = Are there eggs?"
+        },
+        {
+          "id": "mkt_have_yes",
+          "mg": "Ia, misy.",
+          "en": "Yes, there are.",
+          "mg_tsm": "Ia, misy."
+        },
+        {
+          "id": "mkt_have_no",
+          "mg": "Tsisy.",
+          "en": "There aren't / we're out.",
+          "mg_tsm": "Tsisy."
+        },
+        {
+          "id": "mkt_price_q",
+          "mg": "Ohatrinona ity?",
+          "en": "How much is this?",
+          "mg_tsm": "Ohatrino ity?",
+          "note": "For several items: 'Ohatrinona ireto?' = how much are these?"
+        },
+        {
+          "id": "mkt_price_a",
+          "mg": "Fitonjato (ariary).",
+          "en": "Seven hundred (ariary).",
+          "note": "Number answer, right-to-left: fito + jato = 700."
+        },
+        {
+          "id": "mkt_give_me",
+          "mg": "Omeo telo azafady.",
+          "en": "Give me three, please.",
+          "mg_tsm": "Amezo telo azafady.",
+          "note": "Give me + number: omeo dimy / omeo folo..."
+        },
+        {
+          "id": "mkt_give_cups",
+          "mg": "Omeo telo kapoaka azafady.",
+          "en": "Give me three cups (of rice), please.",
+          "note": "Measure after number: kapoaka (cup), toko (pile), kilao (kilo), litatra (litre)."
+        },
+        {
+          "id": "mkt_expensive",
+          "mg": "Lafo be!",
+          "en": "That's very expensive!",
+          "note": "Polite banter, expect the back-and-forth to follow!"
+        },
+        {
+          "id": "mkt_cheap_plz",
+          "mg": "Mora azafady!",
+          "en": "Cheap it down, please! / give me a better price!"
+        },
+        {
+          "id": "mkt_change",
+          "mg": "Tsy misy madinika.",
+          "en": "There's no change.",
+          "mg_tsm": "Tsisy la monnaie.",
+          "note": "Vendor apology when you hand over a big bill."
+        },
+        {
+          "id": "mkt_enough",
+          "mg": "Ampy izay, misaotra!",
+          "en": "That's all, thank you!"
+        }
+      ],
+      "dialogue": {
+        "title": "Buying eggs at the market (Bako intro 4)",
+        "lines": [
+          {
+            "speaker": "You",
+            "mg": "Haody!",
+            "en": "Hello! (anybody here?)"
+          },
+          {
+            "speaker": "Vendor",
+            "mg": "Mandroso!",
+            "en": "Come in / come and buy!"
+          },
+          {
+            "speaker": "You",
+            "mg": "Salama tompoko.",
+            "en": "Hello."
+          },
+          {
+            "speaker": "Vendor",
+            "mg": "Salama tompoko.",
+            "en": "Hello."
+          },
+          {
+            "speaker": "You",
+            "mg": "Misy atody ve?",
+            "en": "Are there any eggs?"
+          },
+          {
+            "speaker": "Vendor",
+            "mg": "Ia, misy.",
+            "en": "Yes, there are."
+          },
+          {
+            "speaker": "You",
+            "mg": "Ohatrino(na)?",
+            "en": "How much are they?"
+          },
+          {
+            "speaker": "Vendor",
+            "mg": "Fitonjato.",
+            "en": "700 (ariary)."
+          },
+          {
+            "speaker": "You",
+            "mg": "Amezo telo azafady.",
+            "en": "Give me three, please."
+          },
+          {
+            "speaker": "Vendor",
+            "mg": "Azafady, tsisy madinika.",
+            "en": "Sorry, no change."
+          }
+        ]
+      }
+    },
+    {
+      "id": "basic_needs",
+      "title": "Basic Needs & Feelings",
+      "curriculum_week": [
+        4
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_6.mp3"
+      ],
+      "bako_lessons": [],
+      "phrases": [
+        {
+          "id": "need_hungry",
+          "mg": "Noana aho.",
+          "en": "I'm hungry."
+        },
+        {
+          "id": "need_thirsty",
+          "mg": "Mangetaheta aho.",
+          "en": "I'm thirsty."
+        },
+        {
+          "id": "need_full",
+          "mg": "Voky aho.",
+          "en": "I'm full.",
+          "note": "Gracious reply at a Malagasy table where you are urged to keep eating!"
+        },
+        {
+          "id": "need_tired",
+          "mg": "Reraka aho.",
+          "en": "I'm tired."
+        },
+        {
+          "id": "need_hot",
+          "mg": "Mafana aho.",
+          "en": "I'm hot."
+        },
+        {
+          "id": "need_cold",
+          "mg": "Mangatsiaka aho.",
+          "en": "I'm cold."
+        },
+        {
+          "id": "need_want_drink",
+          "mg": "Te hisotro rano aho.",
+          "en": "I want to drink water.",
+          "note": "Pattern: te + h-verb = want to ..."
+        },
+        {
+          "id": "need_want_eat",
+          "mg": "Te hisakafo aho.",
+          "en": "I want to eat."
+        },
+        {
+          "id": "need_want_sleep",
+          "mg": "Te hatory aho.",
+          "en": "I want to sleep."
+        },
+        {
+          "id": "need_want_out",
+          "mg": "Te hivoaka aho.",
+          "en": "I want to go out."
+        },
+        {
+          "id": "need_toilet_q",
+          "mg": "Aiza ny kabone?",
+          "en": "Where is the toilet?",
+          "note": "The most essential traveler question of all!"
+        },
+        {
+          "id": "need_toilet_a",
+          "mg": "Aty an-kianja ny kabone.",
+          "en": "The toilet is outside in the yard.",
+          "note": "Typical rural answer: an outhouse."
+        },
+        {
+          "id": "need_need_plz",
+          "mg": "Mila ___ aho azafady.",
+          "en": "I need ___, please.",
+          "note": "Swap the blank: mila rano / mila fanafody / mila dokotera..."
+        },
+        {
+          "id": "need_give_plz",
+          "mg": "Omeo ___ aho azafady.",
+          "en": "Give me ___, please."
+        },
+        {
+          "id": "need_can_have",
+          "mg": "Afaka mahazo vera rano ve aho azafady?",
+          "en": "Could I have a glass of water, please?"
+        },
+        {
+          "id": "need_dislike",
+          "mg": "Tsy tia hena aho.",
+          "en": "I don't like meat."
+        },
+        {
+          "id": "feel_happy",
+          "mg": "Faly izy.",
+          "en": "He/she is happy."
+        },
+        {
+          "id": "feel_sad",
+          "mg": "Malahelo aho.",
+          "en": "I'm sad."
+        },
+        {
+          "id": "feel_surprised",
+          "mg": "Gaga aho.",
+          "en": "I'm surprised."
+        },
+        {
+          "id": "feel_afraid",
+          "mg": "Matahotra aho.",
+          "en": "I'm afraid / scared."
+        },
+        {
+          "id": "feel_trust",
+          "mg": "Matoky anao aho.",
+          "en": "I trust you."
+        },
+        {
+          "id": "feel_hate",
+          "mg": "Halako ity.",
+          "en": "I hate this/it.",
+          "note": "halako = its-hate: the possessive suffix carries the object!"
+        }
+      ],
+      "dialogue": {
+        "title": "A hot afternoon (Peace Corps L6)",
+        "lines": [
+          {
+            "speaker": "You",
+            "mg": "Mangetaheta aho!",
+            "en": "I'm thirsty!"
+          },
+          {
+            "speaker": "Host",
+            "mg": "Manandrosoa! Misotro kafe.",
+            "en": "Come in! Have some coffee."
+          },
+          {
+            "speaker": "You",
+            "mg": "Misaotra betsaka!",
+            "en": "Thank you very much!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eating_ordering",
+      "title": "Eating & Ordering Food",
+      "curriculum_week": [
+        5
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_10.mp3"
+      ],
+      "bako_lessons": [
+        "theme 4",
+        "theme 8a"
+      ],
+      "phrases": [
+        {
+          "id": "eat_have_rice_q",
+          "mg": "Misy vary ve?",
+          "en": "Is there rice? / do you have rice?",
+          "note": "A Malagasy NEEDS to know!"
+        },
+        {
+          "id": "eat_i_eat",
+          "mg": "Mihinana vary aho.",
+          "en": "I eat rice.",
+          "note": "The model VOS sentence: verb + object + subject."
+        },
+        {
+          "id": "eat_i_dont",
+          "mg": "Tsy mihinana hena aho.",
+          "en": "I don't eat meat.",
+          "when_to_say": "Declining a dish politely."
+        },
+        {
+          "id": "eat_would_like",
+          "mg": "Te hihinana ___ aho.",
+          "en": "I would like to eat ___."
+        },
+        {
+          "id": "eat_delicious",
+          "mg": "Matsiro be!",
+          "en": "Very delicious!",
+          "when_to_say": "Always say this — it makes the cook's day."
+        },
+        {
+          "id": "eat_enough",
+          "mg": "Ampy izay, misaotra!",
+          "en": "That's enough for me, thank you!",
+          "when_to_say": "Being served more food than you can eat — which will happen!"
+        },
+        {
+          "id": "eat_full",
+          "mg": "Voky aho, misaotra!",
+          "en": "I'm full, thank you!",
+          "note": "A prized skill at a Malagasy table: knowing when to say voky."
+        },
+        {
+          "id": "eat_ask_water",
+          "mg": "Mila rano amin'ny tavoahangy aho.",
+          "en": "I'd like bottled water.",
+          "note": "A wise health choice for a visitor."
+        },
+        {
+          "id": "eat_ask_coffee",
+          "mg": "Kaopy kafe iray azafady.",
+          "en": "One cup of coffee, please."
+        },
+        {
+          "id": "eat_breakfast",
+          "mg": "Misakafo maraina aho.",
+          "en": "I'm having breakfast.",
+          "note": "Lunch: misakafo atoandro; dinner: misakafo hariva."
+        },
+        {
+          "id": "eat_where_kitchen",
+          "mg": "Aiza ny lakozia?",
+          "en": "Where is the kitchen?"
+        },
+        {
+          "id": "eat_point",
+          "mg": "Tondroy ny ___.",
+          "en": "Point to the ___.",
+          "note": "TPR lesson drill: tondroy ny latabatra = point to the table."
+        },
+        {
+          "id": "eat_pass_plz",
+          "mg": "Omeo ny sira azafady.",
+          "en": "Pass the salt, please."
+        },
+        {
+          "id": "eat_spicy_q",
+          "mg": "Mahery ve ity?",
+          "en": "Is this (chili) hot?",
+          "note": "ASK BEFORE YOU TASTE. Sakay is seriously hot!"
+        },
+        {
+          "id": "eat_spicy_a",
+          "mg": "Tsara be! Tsy mahery.",
+          "en": "It's great! Not hot."
+        }
+      ],
+      "dialogue": {
+        "title": "Being urged to eat more (every Malagasy table!)",
+        "lines": [
+          {
+            "speaker": "Host",
+            "mg": "Mandrosoa! Misakafo isika!",
+            "en": "Come! Let's eat!"
+          },
+          {
+            "speaker": "You",
+            "mg": "Misaotra betsaka! Matsiro be ity laoka ity.",
+            "en": "Thank you very much! This laoka is delicious."
+          },
+          {
+            "speaker": "Host",
+            "mg": "Hihinana bebebebe kokoa!",
+            "en": "Have some more! (urge-urge-urge)"
+          },
+          {
+            "speaker": "You",
+            "mg": "Ampy izay! Voky aho, misaotra!",
+            "en": "That's enough! I'm full, thank you!"
+          },
+          {
+            "speaker": "Host",
+            "mg": "Mazotoa!",
+            "en": "Enjoy!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "directions_travel",
+      "title": "Asking for & Giving Directions",
+      "curriculum_week": [
+        6
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_6.mp3"
+      ],
+      "bako_lessons": [
+        "theme 11a",
+        "theme 11b",
+        "theme 11d"
+      ],
+      "phrases": [
+        {
+          "id": "dir_where_q",
+          "mg": "Aiza ny ___ azafady?",
+          "en": "Where is the ___, please?",
+          "note": "THE traveler pattern: aiza ny hopitaly / tsena / banky / kabone..."
+        },
+        {
+          "id": "dir_going_q",
+          "mg": "Mandeha aiza ianao?",
+          "en": "Where are you going?",
+          "note": "THE street greeting — sounds like a question, works like 'hi'!"
+        },
+        {
+          "id": "dir_going_a",
+          "mg": "Mandeha any amin'ny tsena aho.",
+          "en": "I'm going to the market.",
+          "note": "Distance matters: amin'ny (mid) vs any amin'ny (far)."
+        },
+        {
+          "id": "dir_from_q",
+          "mg": "Avy aiza ianao?",
+          "en": "Where are you coming from?"
+        },
+        {
+          "id": "dir_from_a",
+          "mg": "Avy eto an-trano aho.",
+          "en": "I'm coming from home."
+        },
+        {
+          "id": "dir_how_road",
+          "mg": "Manao ahoana ny lalana?",
+          "en": "How is the road?",
+          "mg_tsm": "Manakory ny làlagna?"
+        },
+        {
+          "id": "dir_road_good",
+          "mg": "Tsara ny lalana.",
+          "en": "The road is good."
+        },
+        {
+          "id": "dir_road_bad",
+          "mg": "Ratsy ny lalana.",
+          "en": "The road is bad."
+        },
+        {
+          "id": "dir_turn_right",
+          "mg": "Mihodina miankavanana.",
+          "en": "Turn right."
+        },
+        {
+          "id": "dir_turn_left",
+          "mg": "Mihodina miankavia.",
+          "en": "Turn left."
+        },
+        {
+          "id": "dir_straight",
+          "mg": "Mandeha mahitsy.",
+          "en": "Go straight ahead."
+        },
+        {
+          "id": "dir_near",
+          "mg": "Akaiky.",
+          "en": "It's near."
+        },
+        {
+          "id": "dir_far",
+          "mg": "Lavitra be.",
+          "en": "It's very far."
+        },
+        {
+          "id": "dir_north",
+          "mg": "Mianavaratra.",
+          "en": "It's to the north / go north.",
+          "note": "Malagasy orient by compass directions much more than left/right!"
+        },
+        {
+          "id": "dir_south",
+          "mg": "Mianatsimo.",
+          "en": "South."
+        },
+        {
+          "id": "dir_east",
+          "mg": "Miatsinanana.",
+          "en": "East."
+        },
+        {
+          "id": "dir_west",
+          "mg": "Miankandrefana.",
+          "en": "West."
+        },
+        {
+          "id": "dir_3hours",
+          "mg": "Lalana adin-telo.",
+          "en": "It's a 3-hour journey.",
+          "note": "Rural distance is measured in travel time, not kilometres (Bako theme 11a)."
+        },
+        {
+          "id": "dir_road_muddy",
+          "mg": "Malama ny lalana.",
+          "en": "The road is muddy."
+        },
+        {
+          "id": "dir_road_broken",
+          "mg": "Tapaka ny lalana.",
+          "en": "The road is cut off."
+        },
+        {
+          "id": "dir_road_bumpy",
+          "mg": "Mikitoantoana ny lalana.",
+          "en": "The road is bumpy."
+        },
+        {
+          "id": "dir_gate_open",
+          "mg": "Misokatra ny vavahady.",
+          "en": "The gate is open."
+        },
+        {
+          "id": "dir_gate_closed",
+          "mg": "Mikatona ny varavarana.",
+          "en": "The door is closed."
+        }
+      ],
+      "dialogue": {
+        "title": "Finding the hospital (Bako theme 11a pattern)",
+        "lines": [
+          {
+            "speaker": "You",
+            "mg": "Azafady, aiza ny hopitaly?",
+            "en": "Excuse me, where is the hospital?"
+          },
+          {
+            "speaker": "Local",
+            "mg": "Tsy lavitra. Mianatsimo, avy eo miankavanana.",
+            "en": "Not far. Go south, then turn right."
+          },
+          {
+            "speaker": "You",
+            "mg": "Misaotra betsaka!",
+            "en": "Thank you very much!"
+          },
+          {
+            "speaker": "Local",
+            "mg": "Tsisy fisaorana.",
+            "en": "Not at all."
+          }
+        ]
+      }
+    },
+    {
+      "id": "time_appointments",
+      "title": "Telling Time & Making Appointments",
+      "curriculum_week": [
+        8
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_11.mp3"
+      ],
+      "bako_lessons": [
+        "theme 10",
+        "gram 15b"
+      ],
+      "phrases": [
+        {
+          "id": "time_what_time",
+          "mg": "Amin'ny firy izao azafady?",
+          "en": "What time is it now, please?",
+          "mg_tsm": "Amin'ny firy andro?"
+        },
+        {
+          "id": "time_at_hour",
+          "mg": "Amin'ny telo maraina.",
+          "en": "At three in the morning.",
+          "note": "Formula: amin'ny + number + time-of-day. Evening hours after sunset count from the evening!"
+        },
+        {
+          "id": "time_at_3pm",
+          "mg": "Amin'ny telo tolakandro.",
+          "en": "At three in the afternoon."
+        },
+        {
+          "id": "time_at_6pm",
+          "mg": "Amin'ny enina hariva.",
+          "en": "At six in the evening."
+        },
+        {
+          "id": "time_noon",
+          "mg": "Mitataovovonana.",
+          "en": "It's noon.",
+          "note": "Lit. 'the sun sits on the ridge of the roof' — lovely!"
+        },
+        {
+          "id": "time_midnight",
+          "mg": "Misasakalina.",
+          "en": "It's midnight."
+        },
+        {
+          "id": "time_meet_when",
+          "mg": "Oviana isika no hihaona?",
+          "en": "When shall we meet?"
+        },
+        {
+          "id": "time_meet_fri",
+          "mg": "Hihaona amin'ny Zoma amin'ny efatra isika.",
+          "en": "We'll meet Friday at four.",
+          "note": "The Week 8 goal sentence!"
+        },
+        {
+          "id": "time_today_tom",
+          "mg": "Androany / Rahampitso.",
+          "en": "Today / tomorrow.",
+          "note": "omaly = yesterday: the essential time trio."
+        },
+        {
+          "id": "time_what_do_q",
+          "mg": "Inona no nataonao omaly?",
+          "en": "What did you do yesterday?",
+          "note": "Tense practice: n- past marker."
+        },
+        {
+          "id": "time_what_do_f",
+          "mg": "Inona no hataonao rahampitso?",
+          "en": "What will you do tomorrow?",
+          "note": "h- future marker."
+        },
+        {
+          "id": "time_malagasy_time",
+          "mg": "Manao fotoan-gasy izy.",
+          "en": "He's on Malagasy time (running late).",
+          "note": "A friendly joke - appointments flex; build buffer time into your plans!"
+        },
+        {
+          "id": "time_wait",
+          "mg": "Miandrasa kely azafady.",
+          "en": "Please wait a moment."
+        },
+        {
+          "id": "time_later",
+          "mg": "Rehefa avy eo.",
+          "en": "In a bit / later on (same day)."
+        },
+        {
+          "id": "time_which_day",
+          "mg": "Inona no andro androany?",
+          "en": "What day is it today?"
+        },
+        {
+          "id": "time_day_ans",
+          "mg": "Zoma androany.",
+          "en": "It's Friday today."
+        }
+      ],
+      "dialogue": {
+        "title": "Making a plan for Friday (Week 8 goal)",
+        "lines": [
+          {
+            "speaker": "A",
+            "mg": "Hihaona isika ve?",
+            "en": "Shall we meet?"
+          },
+          {
+            "speaker": "B",
+            "mg": "Ia! Oviana?",
+            "en": "Yes! When?"
+          },
+          {
+            "speaker": "A",
+            "mg": "Amin'ny Zoma. Amin'ny firy?",
+            "en": "On Friday. At what time?"
+          },
+          {
+            "speaker": "B",
+            "mg": "Amin'ny efatra tolakandro.",
+            "en": "At four in the afternoon."
+          },
+          {
+            "speaker": "A",
+            "mg": "Tsara! Mandrapihaona Zoma!",
+            "en": "Great! See you Friday!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "health_emergency",
+      "title": "Health & Emergencies",
+      "curriculum_week": [
+        10
+      ],
+      "bako_lessons": [
+        "theme 7a",
+        "theme 7b"
+      ],
+      "phrases": [
+        {
+          "id": "help_call",
+          "mg": "Vonjeo aho!",
+          "en": "Help me! / rescue me!",
+          "note": "The single most important emergency call to memorize."
+        },
+        {
+          "id": "help_doctor",
+          "mg": "Mila dokotera aho!",
+          "en": "I need a doctor!"
+        },
+        {
+          "id": "help_sick",
+          "mg": "Marary aho.",
+          "en": "I'm sick."
+        },
+        {
+          "id": "help_hurt_where",
+          "mg": "Aiza no marary?",
+          "en": "Where does it hurt?"
+        },
+        {
+          "id": "help_hurt_ans",
+          "mg": "Marary an-doha aho.",
+          "en": "My head hurts.",
+          "note": "Pattern: marary + body part: marary kibo = stomach ache."
+        },
+        {
+          "id": "help_call_doctor_q",
+          "mg": "Iza no marary?",
+          "en": "Who is sick?"
+        },
+        {
+          "id": "help_cold",
+          "mg": "Voan'ny sery aho.",
+          "en": "I have a cold."
+        },
+        {
+          "id": "help_fever",
+          "mg": "Voan'ny tazo aho.",
+          "en": "I have a fever."
+        },
+        {
+          "id": "help_malaria",
+          "mg": "Voan'ny tazo moka aho.",
+          "en": "I have malaria.",
+          "note": "If a fever persists after coastal travel, insist on a malaria test."
+        },
+        {
+          "id": "help_stomach",
+          "mg": "Marary kibo aho.",
+          "en": "My stomach hurts."
+        },
+        {
+          "id": "help_toothache",
+          "mg": "Marary nify aho.",
+          "en": "I have a toothache."
+        },
+        {
+          "id": "help_throat",
+          "mg": "Marary tenda aho.",
+          "en": "My throat hurts."
+        },
+        {
+          "id": "help_chest",
+          "mg": "Marary tratra aho.",
+          "en": "My chest hurts.",
+          "note": "A phrase to teach caregivers in advance of any heart condition."
+        },
+        {
+          "id": "help_hospital",
+          "mg": "Aiza ny hopitaly azafady?",
+          "en": "Where is the hospital, please?"
+        },
+        {
+          "id": "help_pharmacy",
+          "mg": "Aiza ny fivarotam-panafody azafady?",
+          "en": "Where is the pharmacy, please?"
+        },
+        {
+          "id": "help_medicine",
+          "mg": "Mila fanafody aho.",
+          "en": "I need medicine."
+        },
+        {
+          "id": "help_dizzy",
+          "mg": "Fanina aho.",
+          "en": "I feel dizzy."
+        },
+        {
+          "id": "help_better_q",
+          "mg": "Salama tsara ve ianao?",
+          "en": "Are you feeling well?"
+        },
+        {
+          "id": "help_better_a",
+          "mg": "Tsara misaotra!",
+          "en": "I'm well, thank you!"
+        },
+        {
+          "id": "help_hurts_q",
+          "mg": "Marary ve?",
+          "en": "Does it hurt?"
+        },
+        {
+          "id": "help_not_sick",
+          "mg": "Tsy marary aho.",
+          "en": "I'm not sick."
+        }
+      ],
+      "dialogue": {
+        "title": "At the doctor (Bako theme 7b + curriculum Week 10 roleplay)",
+        "lines": [
+          {
+            "speaker": "Doctor",
+            "mg": "Iza no marary?",
+            "en": "Who is sick?"
+          },
+          {
+            "speaker": "You",
+            "mg": "Izaho, tompoko.",
+            "en": "Me, doctor."
+          },
+          {
+            "speaker": "Doctor",
+            "mg": "Inona no marary?",
+            "en": "What is the problem?"
+          },
+          {
+            "speaker": "You",
+            "mg": "Marary an-doha sy tenda aho.",
+            "en": "My head and throat hurt."
+          },
+          {
+            "speaker": "Doctor",
+            "mg": "Voan'ny sery ianao. Ity ny fanafody.",
+            "en": "You have a cold. Here is the medicine."
+          },
+          {
+            "speaker": "You",
+            "mg": "Misaotra betsaka, tompoko!",
+            "en": "Thank you very much, doctor!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "weather_smalltalk",
+      "title": "Weather & Small Talk",
+      "curriculum_week": [
+        11
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_12.mp3"
+      ],
+      "bako_lessons": [
+        "theme 3"
+      ],
+      "phrases": [
+        {
+          "id": "w_q_how",
+          "mg": "Manao ahoana ny andro?",
+          "en": "How is the weather?",
+          "mg_tsm": "Manakory ny andro?"
+        },
+        {
+          "id": "w_a_nice",
+          "mg": "Tsara ny andro.",
+          "en": "It's nice out (sunny)."
+        },
+        {
+          "id": "w_a_bad",
+          "mg": "Ratsy ny andro.",
+          "en": "The weather is bad (cloudy/rainy).",
+          "note": "But rain at planting time is GOOD news to farmers!"
+        },
+        {
+          "id": "w_raining",
+          "mg": "Avy ny orana!",
+          "en": "It's raining!",
+          "note": "Also 'latsaka ny orana' — the rain falls."
+        },
+        {
+          "id": "w_hot",
+          "mg": "Mafana ny andro.",
+          "en": "It's hot.",
+          "mg_tsm": "Mahamay ny andro."
+        },
+        {
+          "id": "w_cold",
+          "mg": "Mangatsiaka ny andro.",
+          "en": "It's cold.",
+          "mg_tsm": "Manintsy ny andro."
+        },
+        {
+          "id": "w_windy",
+          "mg": "Mandrivotra ny andro.",
+          "en": "It's windy."
+        },
+        {
+          "id": "w_cloudy",
+          "mg": "Mandrahona ny andro.",
+          "en": "It's cloudy."
+        },
+        {
+          "id": "w_foggy",
+          "mg": "Manjavona ny andro.",
+          "en": "It's foggy."
+        },
+        {
+          "id": "w_was_yesterday",
+          "mg": "Nanakory ny andro omaly?",
+          "en": "How was the weather yesterday?",
+          "note": "Past tense: manao ahoana -> nanakory (official: nanao ahoana)."
+        },
+        {
+          "id": "w_tomorrow",
+          "mg": "Hanakory ny andro rahampitso?",
+          "en": "How will the weather be tomorrow?",
+          "note": "Future: hanakory."
+        },
+        {
+          "id": "w_season",
+          "mg": "Fahavaratra izao.",
+          "en": "It's the rainy/hot season now.",
+          "note": "Seasons are OPPOSITE America's: fahavaratra (summer) = Nov-Feb!"
+        },
+        {
+          "id": "w_weekend",
+          "mg": "Ahoana ny weekend?",
+          "en": "How was the weekend?",
+          "note": "A genuinely-used French loanword - ask your friends this on Monday!"
+        }
+      ],
+      "dialogue": {
+        "title": "Morning small talk (Bako theme 3)",
+        "lines": [
+          {
+            "speaker": "A",
+            "mg": "Salama tompoko! Manakory ny andro?",
+            "en": "Hello! How is the weather?"
+          },
+          {
+            "speaker": "B",
+            "mg": "Tsara ny andro. Misehatra ny masoandro!",
+            "en": "It's nice. The sun is shining!"
+          },
+          {
+            "speaker": "A",
+            "mg": "Mahafinaritra! Avy ny orana rahampitso sa tsia?",
+            "en": "Lovely! Rain tomorrow or not?"
+          },
+          {
+            "speaker": "B",
+            "mg": "Misy orana kely angaha.",
+            "en": "Maybe a little rain."
+          }
+        ]
+      }
+    },
+    {
+      "id": "transport_travel",
+      "title": "Transport & Taxi-brousse",
+      "curriculum_week": [
+        12
+      ],
+      "bako_lessons": [
+        "theme 15a",
+        "theme 15b",
+        "theme 15d",
+        "theme 15e"
+      ],
+      "phrases": [
+        {
+          "id": "tr_go_where",
+          "mg": "Mandeha any ___ aho.",
+          "en": "I'm going to ___.",
+          "note": "Mandeha + place: the simplest travel statement."
+        },
+        {
+          "id": "tr_by_transport",
+          "mg": "Mandeha bisikileta aho.",
+          "en": "I'm going by bicycle.",
+          "note": "Formula: mandeha + transport (Bako theme 15): bisikileta, fiarakodia, lakana..."
+        },
+        {
+          "id": "tr_on_foot",
+          "mg": "Mandeha tongotra aho.",
+          "en": "I'm going on foot."
+        },
+        {
+          "id": "tr_station_q",
+          "mg": "Aiza ny garinarobe?",
+          "en": "Where is the taxi-brousse station?",
+          "note": "The big station (garinarobe/lalana) of every town."
+        },
+        {
+          "id": "tr_when_leave",
+          "mg": "Oviana miainga ny bis?",
+          "en": "When does the bus leave?",
+          "note": "miainga = set off. Answer often: 'Rehefa feno olona' = when it's full!"
+        },
+        {
+          "id": "tr_fare",
+          "mg": "Ohatrinona ny lalana?",
+          "en": "How much is the fare/trip?"
+        },
+        {
+          "id": "tr_how_long",
+          "mg": "Ohatrinona ny fotoana?",
+          "en": "How long does it take?"
+        },
+        {
+          "id": "tr_3_hours",
+          "mg": "Adin-telo.",
+          "en": "Three hours.",
+          "note": "Distance measured in hours: adin-telo = a 3-hour run."
+        },
+        {
+          "id": "tr_stop_plz",
+          "mg": "Ajanona kely azafady!",
+          "en": "Stop for a moment, please!",
+          "note": "The essential toilet-stop call on a long ride!"
+        },
+        {
+          "id": "tr_here_ok",
+          "mg": "Eto no miditra.",
+          "en": "This is where we get on."
+        },
+        {
+          "id": "tr_luggage",
+          "mg": "Ity ny entako.",
+          "en": "Here's my luggage.",
+          "note": "entako = my-things; entana = luggage."
+        },
+        {
+          "id": "tr_seats_q",
+          "mg": "Misy seza malalaka ve?",
+          "en": "Are there free seats?"
+        },
+        {
+          "id": "tr_safe",
+          "mg": "Soava dia!",
+          "en": "Safe travels!",
+          "note": "Said to anyone setting off - driver, fellow passengers, friends."
+        },
+        {
+          "id": "tr_arrived",
+          "mg": "Tonga soa!",
+          "en": "You've arrived, welcome!",
+          "note": "Greeting someone arriving — also on telephone calls."
+        }
+      ],
+      "dialogue": {
+        "title": "Catching the taxi-brousse to Mandritsara (Week 12 roleplay)",
+        "lines": [
+          {
+            "speaker": "You",
+            "mg": "Salama! Mandeha any Mandritsara ve ity bis ity?",
+            "en": "Hello! Is this bus going to Mandritsara?"
+          },
+          {
+            "speaker": "Conductor",
+            "mg": "Ia, mandeha any Mandritsara izy.",
+            "en": "Yes, it goes to Mandritsara."
+          },
+          {
+            "speaker": "You",
+            "mg": "Ohatrinona ny lalana?",
+            "en": "How much is the fare?"
+          },
+          {
+            "speaker": "Conductor",
+            "mg": "Dimy ambin'ny roapolo arivo.",
+            "en": "25,000 (ariary)."
+          },
+          {
+            "speaker": "You",
+            "mg": "Ohatrinona ny fotoana?",
+            "en": "How long does it take?"
+          },
+          {
+            "speaker": "Conductor",
+            "mg": "Adin-dimy monja. Seza malalaka, mandrosoa!",
+            "en": "Only about five hours. There's a free seat, hop in!"
+          },
+          {
+            "speaker": "You",
+            "mg": "Misaotra! Soava dia hoantsika!",
+            "en": "Thanks! Safe travels to us all!"
+          }
+        ]
+      }
+    }
+  ]
+}

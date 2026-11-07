@@ -1,0 +1,38 @@
+{
+  "name": "Salama! — Learn Malagasy",
+  "short_name": "Salama!",
+  "description": "A 12-week self-paced Malagasy course with audio, review and reference.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#faf6ef",
+  "theme_color": "#14603a",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "media/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "media/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "media/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "media/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

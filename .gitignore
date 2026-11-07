@@ -1,0 +1,7 @@
+# Never commit: secrets, caches, duplicate bundles of the audio already in APP/media
+RESEARCH/.abidi_cookies*
+__pycache__/
+*.pyc
+*.wav
+salama-*-complete.zip
+PROOFREAD_AUDIO.html

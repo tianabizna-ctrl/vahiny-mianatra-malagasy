@@ -1,0 +1,7 @@
+{
+  "note": "Per-entry voice choice. No voice wins everywhere: the reviewer judged Abidi better overall but MMS correct for 'veloma'. Keys are the same as PROOFREAD.html (word:<id>, phrase:<id>, dlg:<dialogue>-<i>). Values: 'mms' or 'abidi'. Anything not listed uses Abidi when a clip exists, MMS otherwise.",
+  "entries": {
+    "word:veloma": "mms",
+    "phrase:rpb_veloma": "mms"
+  }
+}

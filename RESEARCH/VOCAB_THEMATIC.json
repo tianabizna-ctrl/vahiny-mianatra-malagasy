@@ -1,0 +1,4606 @@
+{
+  "meta": {
+    "title": "Vahiny Mianatra Malagasy — Expanded Thematic Vocabulary",
+    "description": "Large thematic vocabulary dataset for a beginner English speaker (elderly learner). Official Malagasy is primary; Tsimihety (as spoken in Mandritsara) variants are marked where Bako's lessons give them. Sources: Peace Corps Malagasy Language Lessons (public domain), bako.blog thematic lessons (used as reference for this original compilation), malagasyword.org dictionary checks.",
+    "version": "1.0",
+    "audience": "Elderly American beginner learner (absolute beginner, English speaker)"
+  },
+  "conventions": {
+    "fields": {
+      "id": "stable slug, unique within the theme",
+      "mg": "official Malagasy",
+      "mg_tsm": "Tsimihety variant (only when it differs)",
+      "en": "English meaning",
+      "note": "usage or culture note for the learner (optional)"
+    },
+    "tense_note": "Verbs appear in the present (m-) form. Past = n-, future = h-: mihinana -> nihinana -> hihinana. Only the first letter changes.",
+    "audio_note": "peace_corps_audio lists matching MP3s in MALAGASY ASSETS/Malagasy-Sakalava/ for listening practice.",
+    "bako_note": "bako_lessons references the lesson PDFs in MALAGASY ASSETS/bako-blog-lessons/ (link out; get permission before republishing her PDFs)."
+  },
+  "themes": [
+    {
+      "id": "greetings_courtesies",
+      "title": "Greetings & Courtesies — Ny Fiarahabana",
+      "curriculum_week": [
+        1,
+        2
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_2.mp3",
+        "MG_Malagasy_Introduction.mp3"
+      ],
+      "bako_lessons": [
+        "intro 1a",
+        "intro 1b",
+        "intro 2"
+      ],
+      "words": [
+        {
+          "id": "salama",
+          "mg": "Salama!",
+          "en": "Hello! / Hi!",
+          "note": "All-purpose greeting, any time of day."
+        },
+        {
+          "id": "salama_tompoko",
+          "mg": "Salama tompoko!",
+          "en": "Hello, sir/ma'am!",
+          "note": "The most common greeting in Mandritsara; tompoko covers both sir and ma'am."
+        },
+        {
+          "id": "manao_ahoana",
+          "mg": "Manao ahoana?",
+          "en": "How are you?",
+          "note": "Official form; more politely: 'Manao ahoana tompoko?'"
+        },
+        {
+          "id": "manakory",
+          "mg": "Manakory?",
+          "en": "How are you? (Tsimihety)",
+          "mg_tsm": "Manakôry",
+          "note": "Bako's everyday form in Mandritsara. To several people: 'Manakory ianareo?'"
+        },
+        {
+          "id": "fahasalamana",
+          "mg": "Fahasalamana?",
+          "en": "How are you? (asking after health)",
+          "note": "Short for 'Mahasalama ve ianao?' — literally 'health?'"
+        },
+        {
+          "id": "tsara_fa_misaotra",
+          "mg": "Tsara fa misaotra.",
+          "en": "I'm fine, thank you.",
+          "note": "Standard reply to any 'how are you?'. Fa = but."
+        },
+        {
+          "id": "inona_vaovao",
+          "mg": "Inona ny vaovao?",
+          "en": "What's new?",
+          "mg_tsm": "Ino vaovao?",
+          "note": "Classic follow-up after 'how are you?'"
+        },
+        {
+          "id": "tsisy_vaovao",
+          "mg": "Tsy misy vaovao.",
+          "en": "Nothing's new.",
+          "mg_tsm": "Tsisy vaovao.",
+          "note": "Polite modest reply — even when plenty has happened!"
+        },
+        {
+          "id": "haody",
+          "mg": "Haody!",
+          "en": "Hello! (called at the door)",
+          "note": "Said by an arriving guest, like a knock."
+        },
+        {
+          "id": "mandrosoa",
+          "mg": "Mandrosoa!",
+          "en": "Come in!",
+          "note": "Host to guest. Also a vendor's 'come and buy', or inviting a passer-by to join a meal (they may answer 'Misaotra, mazotoa' = thanks, enjoy yours)."
+        },
+        {
+          "id": "mipetrapetraha",
+          "mg": "Mipetrapetraha!",
+          "en": "Have a seat!",
+          "note": "To one person; to several: 'Mipetraha!'"
+        },
+        {
+          "id": "misaotra",
+          "mg": "Misaotra!",
+          "en": "Thank you!"
+        },
+        {
+          "id": "misaotra_betsaka",
+          "mg": "Misaotra betsaka.",
+          "en": "Thank you very much.",
+          "note": "Warmer than plain misaotra."
+        },
+        {
+          "id": "misaotra_ianao_koa",
+          "mg": "Misaotra ianao koa.",
+          "en": "Thank you, you too!"
+        },
+        {
+          "id": "tsisy_fisaorana",
+          "mg": "Tsisy fisaorana.",
+          "en": "Not at all / don't mention it.",
+          "note": "Standard reply when thanked."
+        },
+        {
+          "id": "fisaorana",
+          "mg": "fisaorana",
+          "en": "gratitude, thanks"
+        },
+        {
+          "id": "azafady",
+          "mg": "Azafady!",
+          "en": "Please / excuse me / sorry / pardon",
+          "note": "The most useful politeness word: squeezing past, small mistakes, softening requests."
+        },
+        {
+          "id": "azafady_aiza_ianao",
+          "mg": "Azafady, aiza ianao?",
+          "en": "Excuse me (passing) — may I get by?",
+          "note": "Standard courtesy when squeezing past, e.g. on a taxi-brousse."
+        },
+        {
+          "id": "miala_tsiny",
+          "mg": "Miala tsiny!",
+          "en": "Sorry! (small everyday apology)",
+          "note": "The Peace Corps lesson lists it as an equal of azafady."
+        },
+        {
+          "id": "mifona",
+          "mg": "mifona",
+          "en": "to ask forgiveness (serious apology)",
+          "note": "The word used in the Bible — not for trivial slips."
+        },
+        {
+          "id": "tsy_maninona",
+          "mg": "Tsy maninona.",
+          "en": "No problem / it's OK / you're welcome",
+          "note": "Standard reply to azafady and to thanks."
+        },
+        {
+          "id": "tsy_misy_olana",
+          "mg": "Tsy misy olana!",
+          "en": "No problem! / It's nothing!"
+        },
+        {
+          "id": "tompoko",
+          "mg": "tompoko",
+          "en": "sir / ma'am (polite title)",
+          "note": "Place after any greeting or name: 'Salama tompoko!'"
+        },
+        {
+          "id": "ramatoa",
+          "mg": "ramatoa",
+          "en": "madam, Mrs (respectful for a married or older woman)",
+          "note": "'Salama ramatoa!' — how this learner will politely be addressed."
+        },
+        {
+          "id": "ramatoabe",
+          "mg": "ramatoabe",
+          "en": "great lady, grandmother (very respectful title)",
+          "note": "ramatoa + be (big); a warm honorific for an elderly woman."
+        },
+        {
+          "id": "rahalahy_title",
+          "mg": "rahalahy (as title)",
+          "en": "brother (friendly address to any man)",
+          "note": "'Salama rahalahy!'"
+        },
+        {
+          "id": "tongasoa",
+          "mg": "Tongasoa!",
+          "en": "Welcome!",
+          "note": "Lit. 'arrived well'. Said by the host, not by the arriving guest."
+        },
+        {
+          "id": "tongasoa_eto",
+          "mg": "Tongasoa eto!",
+          "en": "Welcome here! (welcome to our place)"
+        },
+        {
+          "id": "veloma",
+          "mg": "Veloma!",
+          "en": "Goodbye!",
+          "note": "Said by the one leaving. Those staying reply 'Soava dia!' or 'Soa am-bifilana!'"
+        },
+        {
+          "id": "veloma_tompoko",
+          "mg": "Veloma tompoko!",
+          "en": "Goodbye, sir/ma'am!"
+        },
+        {
+          "id": "mazotoa",
+          "mg": "Mazotoa!",
+          "en": "Enjoy! / have a good day! / keep it up! / bye!",
+          "note": "Bako: 'a versatile word like azafady'. Said before someone goes off to eat, rest, or work."
+        },
+        {
+          "id": "mazotoa_homana",
+          "mg": "Mazotoa homana!",
+          "en": "Enjoy your meal! (bon appétit)",
+          "mg_tsm": "Mazotoa homana",
+          "note": "Official alternative: 'Mazotoa mihinana.' Reply: 'Misaotra ianao koa.'"
+        },
+        {
+          "id": "soava_dia",
+          "mg": "Soava dia!",
+          "en": "Have a safe journey! / bon voyage!",
+          "note": "soa (good) + va + dia (journey)."
+        },
+        {
+          "id": "soa_ambifilana",
+          "mg": "Soa am-bifilana!",
+          "en": "Safe travels! (classic farewell reply)",
+          "note": "Lit. 'good at the returning' — wishing a safe return too."
+        },
+        {
+          "id": "mandrapihaona",
+          "mg": "Mandrapihaona!",
+          "en": "See you later! (same day or next)",
+          "note": "Lit. 'until we meet.'"
+        },
+        {
+          "id": "aminny_manaraka_indray",
+          "mg": "Amin'ny manaraka indray!",
+          "en": "See you next time!"
+        },
+        {
+          "id": "rehefa_avy_eo",
+          "mg": "Rehefa avy eo!",
+          "en": "See you in a bit! (minutes to hours, same day)"
+        },
+        {
+          "id": "aminny_alina_koa",
+          "mg": "Amin'ny alina koa!",
+          "en": "See you tonight!"
+        },
+        {
+          "id": "veloma_rahampitso_koa",
+          "mg": "Veloma rahampitso koa!",
+          "en": "See you tomorrow!",
+          "mg_tsm": "Amarainy koa!",
+          "note": "Farewell formula: Veloma/Mazotoa + [time or day] + koa. With any day: 'Talata koa!' = see you Tuesday."
+        },
+        {
+          "id": "eny",
+          "mg": "Eny.",
+          "en": "Yes.",
+          "note": "In reply to 'Misy ... ve?': 'Ia, misy' = yes, there is/are."
+        },
+        {
+          "id": "tsia",
+          "mg": "Tsia.",
+          "en": "No."
+        },
+        {
+          "id": "ve",
+          "mg": "ve",
+          "en": "(yes/no question particle)",
+          "note": "Goes at the sentence end: 'Amerikana ve ianao?' = Are you American?"
+        },
+        {
+          "id": "angaha",
+          "mg": "angaha?",
+          "en": "(question tag) ...right? / really?",
+          "note": "Alternative to ve for yes/no questions."
+        },
+        {
+          "id": "azafady_omeo",
+          "mg": "Mba omeo ___ aho azafady.",
+          "en": "Please give me ___.",
+          "note": "Core request pattern (Peace Corps Lesson 8). Mba softens it further."
+        },
+        {
+          "id": "afaka_mahazo",
+          "mg": "Afaka mahazo ___ ve aho azafady?",
+          "en": "Could I have a ___, please?",
+          "note": "Very polite request — ideal phrasing for an elderly learner."
+        },
+        {
+          "id": "mila",
+          "mg": "Mila ___ aho azafady.",
+          "en": "I need ___, please.",
+          "note": "The most useful way to ask for anything."
+        },
+        {
+          "id": "azo",
+          "mg": "Azo?",
+          "en": "Understand? / OK? / may I?",
+          "note": "Reply: 'Azo!' = got it / yes, you may."
+        },
+        {
+          "id": "azafady_betsaka",
+          "mg": "Azafady betsaka.",
+          "en": "Many excuses / so sorry!",
+          "note": "Intensified apology; betsaka = very much, many."
+        },
+        {
+          "id": "ampy_izay",
+          "mg": "Ampy izay!",
+          "en": "That's enough!",
+          "note": "Handy at the market and when being served food."
+        },
+        {
+          "id": "tsara",
+          "mg": "tsara",
+          "en": "good, fine, nice",
+          "note": "'Tsara ny andro' = the weather is nice. 'Tsara be!' = very good!"
+        },
+        {
+          "id": "tsara_be",
+          "mg": "Tsara be!",
+          "en": "Very good! / great!"
+        },
+        {
+          "id": "tsara_kely",
+          "mg": "Tsara kely!",
+          "en": "Pretty good! (good + a little)"
+        },
+        {
+          "id": "mora",
+          "mg": "mora",
+          "en": "easy, cheap, soft, slow",
+          "note": "'Mora ve?' = is it cheap? Opposites: sarotra (hard), lafo (expensive)."
+        },
+        {
+          "id": "diso",
+          "mg": "diso",
+          "en": "false, mistaken"
+        },
+        {
+          "id": "marina",
+          "mg": "marina",
+          "en": "true, correct"
+        },
+        {
+          "id": "faly_mahalala",
+          "mg": "Faly mahalala anao!",
+          "en": "Pleased to meet you!",
+          "mg_tsm": "Faly mandray anao!",
+          "note": "Mahalala = to know someone. Reply: 'Faly mahalala anao koa!'"
+        },
+        {
+          "id": "kabary",
+          "mg": "kabary",
+          "en": "formal exchange of polite speeches",
+          "note": "Between guest and host, especially in the highlands: alternating short formal greetings before real conversation."
+        },
+        {
+          "id": "miandrasa",
+          "mg": "Miandrasa!",
+          "en": "Wait! / hold on!",
+          "note": "Imperative of miandry (to wait)."
+        },
+        {
+          "id": "avia_aty",
+          "mg": "Avia aty!",
+          "en": "Come here!"
+        },
+        {
+          "id": "ndao",
+          "mg": "Ndao!",
+          "en": "Let's go! / come on! / go ahead!",
+          "note": "'Ndao handeha!' = let's go. Also said to let someone pass."
+        },
+        {
+          "id": "tsy_azo_avao",
+          "mg": "Tsy azo avao!",
+          "en": "It can't be! / impossible!",
+          "note": "A very common exclamation."
+        }
+      ]
+    },
+    {
+      "id": "people_family",
+      "title": "People & Family — Olona sy Fianakaviana",
+      "curriculum_week": [
+        2,
+        7
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_3.mp3",
+        "MG_Malagasy_Lesson_4.mp3"
+      ],
+      "bako_lessons": [
+        "theme 1",
+        "intro 3"
+      ],
+      "words": [
+        {
+          "id": "olona",
+          "mg": "olona",
+          "en": "person, people"
+        },
+        {
+          "id": "fianakaviana",
+          "mg": "fianakaviana",
+          "en": "family"
+        },
+        {
+          "id": "lehilahy",
+          "mg": "lehilahy",
+          "en": "man, male",
+          "mg_tsm": "lalahy",
+          "note": "One word covers man, boy, and male."
+        },
+        {
+          "id": "vehivavy",
+          "mg": "vehivavy",
+          "en": "woman, female",
+          "mg_tsm": "vaiavy",
+          "note": "One word covers woman, girl, and female."
+        },
+        {
+          "id": "dada",
+          "mg": "dada",
+          "en": "dad, father (everyday word)",
+          "note": "Formal word: ray. Possessive attaches directly: dadako = my dad."
+        },
+        {
+          "id": "neny",
+          "mg": "neny",
+          "en": "mom, mother (everyday word)",
+          "note": "Formal word: reny. neniko = my mom."
+        },
+        {
+          "id": "ray",
+          "mg": "ray",
+          "en": "father (formal/compound form)",
+          "note": "Used in compounds: ray aman-dreny = parents."
+        },
+        {
+          "id": "reny",
+          "mg": "reny",
+          "en": "mother (formal/compound form)"
+        },
+        {
+          "id": "ray_aman_dreny",
+          "mg": "ray aman-dreny",
+          "en": "parents (father and mother)",
+          "note": "'Aman-' links paired nouns: father-and-mother. My parents: 'ray aman-dreniko'."
+        },
+        {
+          "id": "vady",
+          "mg": "vady",
+          "en": "spouse, husband/wife",
+          "note": "vadiko = my spouse, vadinao = your spouse, vadiny = his/her spouse."
+        },
+        {
+          "id": "zanaka",
+          "mg": "zanaka",
+          "en": "child, children (in relation to their parents)",
+          "note": "'Manana zanaka aho' = I have children. zanako = my child."
+        },
+        {
+          "id": "zaza",
+          "mg": "zaza",
+          "en": "child, baby (general word)",
+          "note": "Not tied to the parent-relationship; also affectionate for adults."
+        },
+        {
+          "id": "zaza_tokana",
+          "mg": "zaza tokana",
+          "en": "only child",
+          "note": "tokana = only/single."
+        },
+        {
+          "id": "kambana",
+          "mg": "kambana",
+          "en": "twins"
+        },
+        {
+          "id": "zoky",
+          "mg": "zoky",
+          "en": "older sibling (any gender)",
+          "note": "'Manana zoky firy ianao?' = How many older siblings do you have?"
+        },
+        {
+          "id": "zandry",
+          "mg": "zandry",
+          "en": "younger sibling (any gender)"
+        },
+        {
+          "id": "rahalahy",
+          "mg": "rahalahy",
+          "en": "brother (said by a man; respectful 'brother' for any man)",
+          "note": "A man says rahalahy for his brother; a woman says anadahy."
+        },
+        {
+          "id": "rahavavy",
+          "mg": "rahavavy",
+          "en": "sister (said by a woman)",
+          "note": "A woman says rahavavy for her sister; a man says anabavy."
+        },
+        {
+          "id": "anadahy",
+          "mg": "anadahy",
+          "en": "brother (said by a woman)"
+        },
+        {
+          "id": "anabavy",
+          "mg": "anabavy",
+          "en": "sister (said by a man)"
+        },
+        {
+          "id": "dadabe",
+          "mg": "dadabe",
+          "en": "grandfather",
+          "note": "dada + be = 'big father'. Also used respectfully for any elderly man."
+        },
+        {
+          "id": "nenibe",
+          "mg": "nenibe",
+          "en": "grandmother",
+          "note": "neny + be = 'big mother'. Also respectful for any elderly woman."
+        },
+        {
+          "id": "dadatoa",
+          "mg": "dadatoa",
+          "en": "uncle (father's side; respectful for any older man)",
+          "note": "dada + toa. Malagasy consider uncles like parents."
+        },
+        {
+          "id": "nenitoa",
+          "mg": "nenitoa",
+          "en": "aunt (mother's side; respectful for any older woman)"
+        },
+        {
+          "id": "anadahin_dreny",
+          "mg": "anadahin-dreny",
+          "en": "maternal uncle (mother's brother)",
+          "note": "Official construction from Bako theme 1; Tsimihety uses special borrowed terms (e.g. 'Zama')."
+        },
+        {
+          "id": "rahalahin_dray",
+          "mg": "rahalahin-dray",
+          "en": "paternal uncle (father's brother)"
+        },
+        {
+          "id": "rahavavin_dreny",
+          "mg": "rahavavin-dreny",
+          "en": "maternal aunt (mother's sister)"
+        },
+        {
+          "id": "anabavin_dray",
+          "mg": "anabavin-dray",
+          "en": "paternal aunt (father's sister)"
+        },
+        {
+          "id": "zanak_rahalahy",
+          "mg": "zanak'rahalahy",
+          "en": "nephew/niece (a man's brother's child)",
+          "note": "Nephews and nieces are treated like one's own children (Bako theme 1)."
+        },
+        {
+          "id": "zanak_rahavavy",
+          "mg": "zanak'rahavavy",
+          "en": "nephew/niece (a man's sister's child)"
+        },
+        {
+          "id": "zanak_anadahy",
+          "mg": "zanak'anadahy",
+          "en": "nephew/niece (a woman's brother's child)"
+        },
+        {
+          "id": "zanak_anabavy",
+          "mg": "zanak'anabavy",
+          "en": "nephew/niece (a woman's sister's child)"
+        },
+        {
+          "id": "havana",
+          "mg": "havana",
+          "en": "relative, kin"
+        },
+        {
+          "id": "namana",
+          "mg": "namana",
+          "en": "friend"
+        },
+        {
+          "id": "sipa",
+          "mg": "sipa",
+          "en": "boyfriend/girlfriend",
+          "note": "Informal modern loanword."
+        },
+        {
+          "id": "taranaka",
+          "mg": "taranaka",
+          "en": "descendant, offspring, generation"
+        },
+        {
+          "id": "rafohy",
+          "mg": "rafohy",
+          "en": "ancestor",
+          "note": "Family identity runs deep through ancestors in Malagasy culture."
+        },
+        {
+          "id": "foko",
+          "mg": "foko",
+          "en": "clan, ethnic group, lineage"
+        },
+        {
+          "id": "vahiny",
+          "mg": "vahiny",
+          "en": "guest, stranger, foreigner",
+          "note": "The project name 'Vahiny Mianatra Malagasy' = 'A guest learning Malagasy'. Guests are honored: 'Tongasoa!'"
+        },
+        {
+          "id": "vazaha",
+          "mg": "vazaha",
+          "en": "Western foreigner",
+          "note": "Neutral, friendly word — an American learner will hear it often, always kindly."
+        },
+        {
+          "id": "manambady",
+          "mg": "manambady",
+          "en": "to be married",
+          "note": "'Manambady aho' = I'm married (present); nanambady (past); hambady (future)."
+        },
+        {
+          "id": "mananjanaka",
+          "mg": "mananjanaka",
+          "en": "to have children (of a couple)",
+          "note": "'Mbola tsy mananjanaka izahay' = We don't have children yet."
+        },
+        {
+          "id": "manana",
+          "mg": "manana",
+          "en": "to have",
+          "note": "'Manana zanaka telo aho' = I have three children. Negative: 'Tsy manana...'"
+        },
+        {
+          "id": "manam_bady",
+          "mg": "manam-bady",
+          "en": "to be married (lit. 'to have a spouse')",
+          "note": "manana + vady contracts to manam-bady."
+        },
+        {
+          "id": "zanaka_lahy",
+          "mg": "zanaka lahy",
+          "en": "son (child + male)"
+        },
+        {
+          "id": "zanaka_vavy",
+          "mg": "zanaka vavy",
+          "en": "daughter (child + female)",
+          "note": "Counting children: 'Mananjanaka telo zahay: lahy iray, vavy roa.' = We have three children: one boy, two girls."
+        },
+        {
+          "id": "mpianatra",
+          "mg": "mpianatra",
+          "en": "student, pupil",
+          "note": "'Mpianatra teny malagasy aho' = I'm learning Malagasy."
+        },
+        {
+          "id": "mpampianatra",
+          "mg": "mpampianatra",
+          "en": "teacher",
+          "note": "'Mpampianatra anglisy' = English teacher."
+        },
+        {
+          "id": "mpivarotra",
+          "mg": "mpivarotra",
+          "en": "seller, merchant, shopkeeper"
+        },
+        {
+          "id": "mpiantsena",
+          "mg": "mpiantsena",
+          "en": "shopper, market-goer"
+        },
+        {
+          "id": "mpiasa",
+          "mg": "mpiasa",
+          "en": "employee, worker"
+        },
+        {
+          "id": "tantsaha",
+          "mg": "tantsaha",
+          "en": "peasant, country farmer",
+          "note": "Common self-description of most Malagasy."
+        },
+        {
+          "id": "dokotera",
+          "mg": "dokotera",
+          "en": "doctor"
+        },
+        {
+          "id": "mpiofana",
+          "mg": "mpiofana",
+          "en": "trainee",
+          "note": "Peace Corps Lesson 3: 'Mpiofana aho.'"
+        },
+        {
+          "id": "nisaraka",
+          "mg": "nisaraka",
+          "en": "to be separated (of a couple)",
+          "note": "Peace Corps Lesson 4 word."
+        }
+      ],
+      "culture_notes": [
+        "Family terms shift with the speaker's gender: rahalahy/anadahy (brother) and rahavavy/anabavy (sister) swap depending on who is talking, and uncle/aunt terms differ by maternal vs paternal side.",
+        "Malagasy consider uncles and aunties like parents, cousins like siblings, and nephews/nieces like one's own children (Bako theme 1).",
+        "Possessives are suffixes on the noun (curriculum Week 7): -ko (my), -nao (your), -ny (his/her): vadiko, vadinao, vadiny, tranoko, zanany."
+      ]
+    },
+    {
+      "id": "food_drink",
+      "title": "Food & Drink — Sakafo sy Zava-pisotro",
+      "curriculum_week": [
+        3,
+        5
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_10.mp3"
+      ],
+      "bako_lessons": [
+        "intro 4",
+        "theme 4",
+        "theme 8a",
+        "theme 8b"
+      ],
+      "words": [
+        {
+          "id": "sakafo",
+          "mg": "sakafo",
+          "en": "food, a meal",
+          "note": "sakafo maraina = breakfast; sakafo atoandro = lunch; sakafo hariva = dinner."
+        },
+        {
+          "id": "vary",
+          "mg": "vary",
+          "en": "rice",
+          "note": "THE staple, eaten at every meal. 'Vary sy laoka' = rice with its accompaniment."
+        },
+        {
+          "id": "laoka",
+          "mg": "laoka",
+          "en": "side dish eaten with rice",
+          "note": "Whatever is served WITH rice to make it a meal — untranslatable in one word."
+        },
+        {
+          "id": "mofo",
+          "mg": "mofo",
+          "en": "bread",
+          "note": "'Mofo gasy' = Malagasy rice-flour bread, sold warm at street stalls in the morning."
+        },
+        {
+          "id": "mofo_gasy",
+          "mg": "mofo gasy",
+          "en": "Malagasy street bread (rice flour)"
+        },
+        {
+          "id": "hena",
+          "mg": "hena",
+          "en": "meat"
+        },
+        {
+          "id": "henakisoa",
+          "mg": "henakisoa",
+          "en": "pork",
+          "note": "hena + kisoa = pig-meat."
+        },
+        {
+          "id": "henomby",
+          "mg": "henomby",
+          "en": "beef (zebu)",
+          "note": "hena + omby = cattle-meat. The festive meat of ceremonies."
+        },
+        {
+          "id": "akoho",
+          "mg": "akoho",
+          "en": "chicken",
+          "note": "'Akoho mitady sakafo' = free-range chicken (lit. 'chicken that finds its own food') — the prized soup bird."
+        },
+        {
+          "id": "trondro",
+          "mg": "trondro",
+          "en": "fish",
+          "mg_tsm": "lako"
+        },
+        {
+          "id": "atody",
+          "mg": "atody",
+          "en": "egg(s)",
+          "note": "Market order: 'atody telo' = three eggs (number after the noun)."
+        },
+        {
+          "id": "voanjo",
+          "mg": "voanjo",
+          "en": "peanut",
+          "note": "Made into sweet 'koba' and brittle candies."
+        },
+        {
+          "id": "kitoza",
+          "mg": "kitoza",
+          "en": "dried smoked zebu meat",
+          "note": "Classic road-trip snack, sliced thin and fried."
+        },
+        {
+          "id": "sambos",
+          "mg": "sambos",
+          "en": "samosa (fried filled pastry)"
+        },
+        {
+          "id": "legioma",
+          "mg": "legioma",
+          "en": "vegetable(s)",
+          "note": "Loanword from French 'légume'."
+        },
+        {
+          "id": "anana",
+          "mg": "anana",
+          "en": "leafy greens",
+          "mg_tsm": "anambe",
+          "note": "The everyday green of rural Madagascar — edible boiled leaves of many plants."
+        },
+        {
+          "id": "voatabia",
+          "mg": "voatabia",
+          "en": "tomato",
+          "mg_tsm": "tomaoty",
+          "note": "'Tomaty' is also common."
+        },
+        {
+          "id": "karaoty",
+          "mg": "karaoty",
+          "en": "carrot"
+        },
+        {
+          "id": "ovy",
+          "mg": "ovy",
+          "en": "potato(es)"
+        },
+        {
+          "id": "katsaka",
+          "mg": "katsaka",
+          "en": "corn, maize"
+        },
+        {
+          "id": "mangahazo",
+          "mg": "mangahazo",
+          "en": "cassava, manioc"
+        },
+        {
+          "id": "vomanga",
+          "mg": "vomanga",
+          "en": "sweet potato"
+        },
+        {
+          "id": "tsaramaso",
+          "mg": "tsaramaso",
+          "en": "beans",
+          "note": "Classic protein laoka. Green beans = tsaramaso tanora (young beans)."
+        },
+        {
+          "id": "voanjobory",
+          "mg": "voanjobory",
+          "en": "Bambara groundnut (round bean)"
+        },
+        {
+          "id": "laisoa",
+          "mg": "laisoa",
+          "en": "cabbage"
+        },
+        {
+          "id": "konkombra",
+          "mg": "konkombra",
+          "en": "cucumber"
+        },
+        {
+          "id": "baranjely",
+          "mg": "baranjely",
+          "en": "aubergine, eggplant"
+        },
+        {
+          "id": "salady",
+          "mg": "salady",
+          "en": "lettuce"
+        },
+        {
+          "id": "soflera",
+          "mg": "soflera",
+          "en": "cauliflower"
+        },
+        {
+          "id": "voatavo",
+          "mg": "voatavo",
+          "en": "pumpkin, squash",
+          "note": "The tender shoots and leaves are also cooked as greens."
+        },
+        {
+          "id": "korzety",
+          "mg": "korzety",
+          "en": "courgette, zucchini"
+        },
+        {
+          "id": "petits_pois",
+          "mg": "petits pois",
+          "en": "peas"
+        },
+        {
+          "id": "episy",
+          "mg": "episy",
+          "en": "spices"
+        },
+        {
+          "id": "sira",
+          "mg": "sira",
+          "en": "salt"
+        },
+        {
+          "id": "siramamy",
+          "mg": "siramamy",
+          "en": "sugar",
+          "note": "sira + mamy = salt + sweet."
+        },
+        {
+          "id": "menaka",
+          "mg": "menaka",
+          "en": "oil"
+        },
+        {
+          "id": "poavra",
+          "mg": "poavra",
+          "en": "pepper (spice)"
+        },
+        {
+          "id": "sakay",
+          "mg": "sakay",
+          "en": "chili (pepper or paste)",
+          "note": "Served with everything and VERY hot."
+        },
+        {
+          "id": "tongolo_gasy",
+          "mg": "tongolo gasy",
+          "en": "garlic",
+          "mg_tsm": "tongolo lay",
+          "note": "Lit. 'Malagasy onion'."
+        },
+        {
+          "id": "tongolo_ejipta",
+          "mg": "tongolo ejipta",
+          "en": "onion",
+          "mg_tsm": "tongolo be",
+          "note": "Lit. 'Egyptian onion' / 'big onion'."
+        },
+        {
+          "id": "tongolo_ravina",
+          "mg": "tongolo ravina",
+          "en": "spring onion",
+          "mg_tsm": "tongolo maitso",
+          "note": "Lit. 'leaf onion' / 'green onion'."
+        },
+        {
+          "id": "sakamalao",
+          "mg": "sakamalao",
+          "en": "ginger",
+          "mg_tsm": "sakaitany"
+        },
+        {
+          "id": "voankazo",
+          "mg": "voankazo",
+          "en": "fruit(s)",
+          "note": "voa (fruit) + kazo (tree). Fruit is seasonal — except bananas."
+        },
+        {
+          "id": "akondro",
+          "mg": "akondro",
+          "en": "banana",
+          "mg_tsm": "fôntsy / kida",
+          "note": "The only fruit available year-round."
+        },
+        {
+          "id": "voasary",
+          "mg": "voasary",
+          "en": "orange",
+          "mg_tsm": "tsoa"
+        },
+        {
+          "id": "voasary_makirana",
+          "mg": "voasary makirana",
+          "en": "lemon",
+          "mg_tsm": "tsoa matsiko"
+        },
+        {
+          "id": "pelmosy",
+          "mg": "pelmosy",
+          "en": "grapefruit",
+          "mg_tsm": "tsoa be",
+          "note": "Also 'voasary be' = big orange."
+        },
+        {
+          "id": "manga_fruit",
+          "mg": "manga",
+          "en": "mango",
+          "note": "Abundant Nov–Jan. Homophone trap: manga also means blue — context decides!"
+        },
+        {
+          "id": "mananasy",
+          "mg": "mananasy",
+          "en": "pineapple",
+          "mg_tsm": "manasy"
+        },
+        {
+          "id": "papay",
+          "mg": "papay",
+          "en": "papaya",
+          "mg_tsm": "mapaza"
+        },
+        {
+          "id": "goavy",
+          "mg": "goavy",
+          "en": "guava",
+          "mg_tsm": "gavo"
+        },
+        {
+          "id": "letisy",
+          "mg": "letisy",
+          "en": "lychee",
+          "mg_tsm": "lakisy",
+          "note": "Madagascar's famous export lychee — the Christmas-season fruit."
+        },
+        {
+          "id": "voanio",
+          "mg": "voanio",
+          "en": "coconut"
+        },
+        {
+          "id": "zavoka",
+          "mg": "zavoka",
+          "en": "avocado",
+          "mg_tsm": "gavoka"
+        },
+        {
+          "id": "ampalibe",
+          "mg": "ampalibe",
+          "en": "jackfruit"
+        },
+        {
+          "id": "garana",
+          "mg": "garana",
+          "en": "passion fruit"
+        },
+        {
+          "id": "paoma",
+          "mg": "paoma",
+          "en": "apple"
+        },
+        {
+          "id": "paiso",
+          "mg": "paiso",
+          "en": "peach"
+        },
+        {
+          "id": "poara",
+          "mg": "poara",
+          "en": "pear"
+        },
+        {
+          "id": "frezy",
+          "mg": "frezy",
+          "en": "strawberry"
+        },
+        {
+          "id": "voaloboka",
+          "mg": "voaloboka",
+          "en": "grapes"
+        },
+        {
+          "id": "voamadilo",
+          "mg": "voamadilo",
+          "en": "tamarind",
+          "mg_tsm": "madiro"
+        },
+        {
+          "id": "daty",
+          "mg": "daty",
+          "en": "date"
+        },
+        {
+          "id": "aviavy",
+          "mg": "aviavy",
+          "en": "fig"
+        },
+        {
+          "id": "rotra",
+          "mg": "rotra",
+          "en": "Java plum",
+          "mg_tsm": "voandrôtry"
+        },
+        {
+          "id": "voatsilo",
+          "mg": "voatsilo",
+          "en": "prickly pear"
+        },
+        {
+          "id": "voatsiperifery",
+          "mg": "voatsiperifery",
+          "en": "wild Madagascar pepper",
+          "note": "Prized native pepper from forest vines."
+        },
+        {
+          "id": "zava_pisotro",
+          "mg": "zava-pisotro",
+          "en": "drink, beverage"
+        },
+        {
+          "id": "rano",
+          "mg": "rano",
+          "en": "water",
+          "note": "Visitor's phrase: 'Mila rano amin'ny tavoahangy aho' = I'd like bottled water."
+        },
+        {
+          "id": "ranon_ampango",
+          "mg": "ranon'ampango",
+          "en": "burnt-rice water (traditional drink)",
+          "note": "Made by boiling water in the rice pot after the rice is cooked; the national everyday drink."
+        },
+        {
+          "id": "ronono",
+          "mg": "ronono",
+          "en": "milk"
+        },
+        {
+          "id": "dite",
+          "mg": "dite",
+          "en": "tea"
+        },
+        {
+          "id": "kafe",
+          "mg": "kafe",
+          "en": "coffee",
+          "note": "Strong, sweet, served in small glasses — offered to every guest."
+        },
+        {
+          "id": "jus",
+          "mg": "jus",
+          "en": "juice"
+        },
+        {
+          "id": "limonady",
+          "mg": "limonady",
+          "en": "lemonade / soda"
+        },
+        {
+          "id": "koka",
+          "mg": "kôka",
+          "en": "cola / soda"
+        },
+        {
+          "id": "labiera",
+          "mg": "labiera",
+          "en": "beer",
+          "note": "THB (Three Horses Beer) is the national brand."
+        },
+        {
+          "id": "toaka_gasy",
+          "mg": "toaka gasy",
+          "en": "local rum",
+          "note": "Ceremonial staple — included for completeness, not a recommendation."
+        },
+        {
+          "id": "mihinana",
+          "mg": "mihinana",
+          "en": "to eat",
+          "mg_tsm": "homana",
+          "note": "Present mihinana, past nihinana, future hihinana. Everyday alternative: misakafo."
+        },
+        {
+          "id": "misakafo",
+          "mg": "misakafo",
+          "en": "to have a meal",
+          "mg_tsm": "homagna",
+          "note": "misakafo maraina = have breakfast; atoandro = lunch; hariva = dinner."
+        },
+        {
+          "id": "misotro",
+          "mg": "misotro",
+          "en": "to drink",
+          "mg_tsm": "migiaka",
+          "note": "'Misotro rano aho.' = I drink water."
+        },
+        {
+          "id": "matsiro",
+          "mg": "matsiro",
+          "en": "delicious, tasty",
+          "note": "'Matsiro be!' = very delicious! The compliment every host hopes for."
+        },
+        {
+          "id": "noana",
+          "mg": "Noana aho.",
+          "en": "I'm hungry."
+        },
+        {
+          "id": "voky",
+          "mg": "Voky aho.",
+          "en": "I'm full (after a meal)",
+          "note": "Gracious reply to more food: 'Voky misaotra!'"
+        },
+        {
+          "id": "mangetaheta",
+          "mg": "Mangetaheta aho.",
+          "en": "I'm thirsty."
+        },
+        {
+          "id": "te_hisotro",
+          "mg": "Te hisotro rano aho.",
+          "en": "I want to drink water",
+          "note": "Peace Corps Lesson 6 pattern: te + h-verb = want to ..."
+        },
+        {
+          "id": "te_hisakafo",
+          "mg": "Te hisakafo aho.",
+          "en": "I want to eat."
+        },
+        {
+          "id": "mahandro",
+          "mg": "mahandro",
+          "en": "to cook",
+          "note": "'Mahandro vary aho.' Past nanandro, future hahandro."
+        },
+        {
+          "id": "manendy",
+          "mg": "manendy",
+          "en": "to fry"
+        },
+        {
+          "id": "mitono",
+          "mg": "mitono",
+          "en": "to grill",
+          "mg_tsm": "mitogno"
+        },
+        {
+          "id": "mitetika",
+          "mg": "mitetika",
+          "en": "to chop",
+          "mg_tsm": "manapatapaka"
+        },
+        {
+          "id": "mamaofy",
+          "mg": "mamaofy",
+          "en": "to peel",
+          "mg_tsm": "magnofy"
+        },
+        {
+          "id": "manasa_vilia",
+          "mg": "manasa vilia",
+          "en": "to wash the dishes",
+          "mg_tsm": "manasa kapila"
+        },
+        {
+          "id": "manadio_lakozia",
+          "mg": "manadio lakozia",
+          "en": "to clean the kitchen"
+        },
+        {
+          "id": "lakozia",
+          "mg": "lakozia",
+          "en": "kitchen",
+          "note": "'Ao an-dakozia' = in the kitchen (Bako theme 4 title)."
+        },
+        {
+          "id": "vilia",
+          "mg": "vilia",
+          "en": "plate",
+          "mg_tsm": "kapila"
+        },
+        {
+          "id": "sotro",
+          "mg": "sotro",
+          "en": "spoon",
+          "mg_tsm": "sôtro"
+        },
+        {
+          "id": "sotrobe",
+          "mg": "sotrobe",
+          "en": "serving spoon, ladle",
+          "mg_tsm": "sadrô",
+          "note": "sotro + be = big spoon."
+        },
+        {
+          "id": "sotrokely",
+          "mg": "sotrokely",
+          "en": "teaspoon"
+        },
+        {
+          "id": "antsy",
+          "mg": "antsy",
+          "en": "knife",
+          "mg_tsm": "meso"
+        },
+        {
+          "id": "forosety",
+          "mg": "forosety",
+          "en": "table fork",
+          "note": "Loanword; in villages people usually eat with a spoon or the right hand."
+        },
+        {
+          "id": "vera",
+          "mg": "vera",
+          "en": "glass (drinking)"
+        },
+        {
+          "id": "kaopy",
+          "mg": "kaopy",
+          "en": "cup",
+          "mg_tsm": "tasy",
+          "note": "'Kaopy telo' = three cups — also the standard rice measure at market."
+        },
+        {
+          "id": "tavoahangy",
+          "mg": "tavoahangy",
+          "en": "bottle",
+          "note": "'Rano amin'ny tavoahangy' = bottled water."
+        },
+        {
+          "id": "jogy",
+          "mg": "jôgy",
+          "en": "carafe, decanter"
+        },
+        {
+          "id": "vilany",
+          "mg": "vilany",
+          "en": "pot"
+        },
+        {
+          "id": "lapoaly",
+          "mg": "lapoaly",
+          "en": "pan, frying pan"
+        },
+        {
+          "id": "sio",
+          "mg": "siô",
+          "en": "bucket"
+        },
+        {
+          "id": "koveta",
+          "mg": "koveta",
+          "en": "wash basin",
+          "mg_tsm": "govety",
+          "note": "Used for washing dishes and clothes."
+        },
+        {
+          "id": "sinibe",
+          "mg": "sinibe",
+          "en": "water jar, big jug",
+          "mg_tsm": "sajô"
+        },
+        {
+          "id": "fatana",
+          "mg": "fatana / fatampera",
+          "en": "stove",
+          "note": "Usually a charcoal stove."
+        },
+        {
+          "id": "latabatra",
+          "mg": "latabatra",
+          "en": "table",
+          "note": "'Tondroy ny latabatra' = point to the table — the TPR drill from Bako's kitchen lesson."
+        },
+        {
+          "id": "seza",
+          "mg": "seza",
+          "en": "chair",
+          "mg_tsm": "sezy"
+        },
+        {
+          "id": "tsihy",
+          "mg": "tsihy",
+          "en": "woven mat",
+          "note": "Traditional palm-leaf mat used for seating and sleeping."
+        },
+        {
+          "id": "ohatrino",
+          "mg": "Ohatrinona ity?",
+          "en": "How much is this?",
+          "mg_tsm": "Ohatrino ity?",
+          "note": "THE market question. 'Ohatrinona ny vary?'"
+        },
+        {
+          "id": "lafo",
+          "mg": "Lafo be!",
+          "en": "It's very expensive!",
+          "note": "Polite market banter: 'Lafo be io! Mora azafady!'"
+        },
+        {
+          "id": "mora_ve",
+          "mg": "Mora ve?",
+          "en": "Is it cheap? / can you lower the price?"
+        },
+        {
+          "id": "tsisy_madinika",
+          "mg": "Tsy misy madinika.",
+          "en": "There's no change.",
+          "note": "Needed at small stalls."
+        },
+        {
+          "id": "mividy",
+          "mg": "mividy",
+          "en": "to buy",
+          "note": "'Mividy mofo izy.' = She is buying bread. Buyer = mpividy."
+        },
+        {
+          "id": "mivarotra",
+          "mg": "mivarotra",
+          "en": "to sell",
+          "note": "'Mivarotra vary izy.' = She sells rice. Past nivarotra; seller = mpivarotra."
+        },
+        {
+          "id": "miantsena",
+          "mg": "miantsena",
+          "en": "to go shopping, go to market",
+          "mg_tsm": "manao bazary"
+        },
+        {
+          "id": "kapoaka",
+          "mg": "kapoaka",
+          "en": "measuring cup/tin (market unit)",
+          "note": "'Vary telo kapoaka' = three cups of rice — noun, then number, then measure."
+        },
+        {
+          "id": "toko",
+          "mg": "toko",
+          "en": "pile, heap (market unit)",
+          "note": "'Voatabia telo toko' = three piles of tomatoes."
+        },
+        {
+          "id": "kilao",
+          "mg": "kilao",
+          "en": "kilo"
+        },
+        {
+          "id": "litatra",
+          "mg": "litatra",
+          "en": "litre"
+        },
+        {
+          "id": "tsena",
+          "mg": "tsena",
+          "en": "market",
+          "note": "'Miantsena aho' = I'm going to market."
+        },
+        {
+          "id": "mamy",
+          "mg": "mamy",
+          "en": "sweet (taste)"
+        },
+        {
+          "id": "manta",
+          "mg": "manta",
+          "en": "raw, unripe, uncooked",
+          "note": "'Tsy mihinana trondro manta aho.' = I don't eat raw fish."
+        }
+      ],
+      "culture_notes": [
+        "A Malagasy meal without rice is not a meal: someone who ate only bread will say 'Tsy nisakafo aho' (I haven't eaten).",
+        "The hostess pours water over your hands from a jug for washing before you eat — hold your hands over the basin.",
+        "'Mandrosoa' (come join us!) at mealtime is mandatory politeness; replying 'Misaotra, mazotoa' (thanks, enjoy yours) declines gracefully."
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers & Money — Isa sy Vola",
+      "curriculum_week": [
+        3
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_9.mp3"
+      ],
+      "bako_lessons": [
+        "intro 4",
+        "intro 5"
+      ],
+      "words": [
+        {
+          "id": "aotra",
+          "mg": "aotra",
+          "en": "zero, 0"
+        },
+        {
+          "id": "iray",
+          "mg": "iray",
+          "en": "one, 1"
+        },
+        {
+          "id": "roa",
+          "mg": "roa",
+          "en": "two, 2"
+        },
+        {
+          "id": "telo",
+          "mg": "telo",
+          "en": "three, 3"
+        },
+        {
+          "id": "efatra",
+          "mg": "efatra",
+          "en": "four, 4"
+        },
+        {
+          "id": "dimy",
+          "mg": "dimy",
+          "en": "five, 5"
+        },
+        {
+          "id": "enina",
+          "mg": "enina",
+          "en": "six, 6"
+        },
+        {
+          "id": "fito",
+          "mg": "fito",
+          "en": "seven, 7"
+        },
+        {
+          "id": "valo",
+          "mg": "valo",
+          "en": "eight, 8"
+        },
+        {
+          "id": "sivy",
+          "mg": "sivy",
+          "en": "nine, 9"
+        },
+        {
+          "id": "folo",
+          "mg": "folo",
+          "en": "ten, 10"
+        },
+        {
+          "id": "iraika_ambinny_folo",
+          "mg": "iraika ambin'ny folo",
+          "en": "eleven, 11",
+          "note": "Lit. 'one on top of ten'."
+        },
+        {
+          "id": "roa_ambinny_folo",
+          "mg": "roa ambin'ny folo",
+          "en": "twelve, 12"
+        },
+        {
+          "id": "telo_ambinny_folo",
+          "mg": "telo ambin'ny folo",
+          "en": "thirteen, 13"
+        },
+        {
+          "id": "efatra_ambinny_folo",
+          "mg": "efatra ambin'ny folo",
+          "en": "fourteen, 14"
+        },
+        {
+          "id": "dimy_ambinny_folo",
+          "mg": "dimy ambin'ny folo",
+          "en": "fifteen, 15"
+        },
+        {
+          "id": "enina_ambinny_folo",
+          "mg": "enina ambin'ny folo",
+          "en": "sixteen, 16"
+        },
+        {
+          "id": "fito_ambinny_folo",
+          "mg": "fito ambin'ny folo",
+          "en": "seventeen, 17"
+        },
+        {
+          "id": "valo_ambinny_folo",
+          "mg": "valo ambin'ny folo",
+          "en": "eighteen, 18"
+        },
+        {
+          "id": "sivy_ambinny_folo",
+          "mg": "sivy ambin'ny folo",
+          "en": "nineteen, 19"
+        },
+        {
+          "id": "roapolo",
+          "mg": "roapolo",
+          "en": "twenty, 20",
+          "note": "Tens: digit + folo."
+        },
+        {
+          "id": "telopolo",
+          "mg": "telopolo",
+          "en": "thirty, 30"
+        },
+        {
+          "id": "efapolo",
+          "mg": "efapolo",
+          "en": "forty, 40"
+        },
+        {
+          "id": "dimampolo",
+          "mg": "dimampolo",
+          "en": "fifty, 50"
+        },
+        {
+          "id": "enimpolo",
+          "mg": "enimpolo",
+          "en": "sixty, 60"
+        },
+        {
+          "id": "fitopolo",
+          "mg": "fitopolo",
+          "en": "seventy, 70"
+        },
+        {
+          "id": "valopolo",
+          "mg": "valopolo",
+          "en": "eighty, 80"
+        },
+        {
+          "id": "sivifolo",
+          "mg": "sivifolo",
+          "en": "ninety, 90"
+        },
+        {
+          "id": "zato",
+          "mg": "zato",
+          "en": "hundred, 100"
+        },
+        {
+          "id": "roanjato",
+          "mg": "roanjato",
+          "en": "two hundred, 200",
+          "note": "Hundreds: digit + jato."
+        },
+        {
+          "id": "telonjato",
+          "mg": "telonjato",
+          "en": "three hundred, 300"
+        },
+        {
+          "id": "efajato",
+          "mg": "efajato",
+          "en": "four hundred, 400"
+        },
+        {
+          "id": "dimanjato",
+          "mg": "dimanjato",
+          "en": "five hundred, 500"
+        },
+        {
+          "id": "eninjato",
+          "mg": "eninjato",
+          "en": "six hundred, 600"
+        },
+        {
+          "id": "fitonjato",
+          "mg": "fitonjato",
+          "en": "seven hundred, 700"
+        },
+        {
+          "id": "valonjato",
+          "mg": "valonjato",
+          "en": "eight hundred, 800"
+        },
+        {
+          "id": "sivinjato",
+          "mg": "sivinjato",
+          "en": "nine hundred, 900"
+        },
+        {
+          "id": "arivo",
+          "mg": "arivo",
+          "en": "thousand, 1,000"
+        },
+        {
+          "id": "roa_arivo",
+          "mg": "roa arivo",
+          "en": "two thousand, 2,000",
+          "note": "So: dimy arivo = 5,000; fito arivo = 7,000."
+        },
+        {
+          "id": "alina_number",
+          "mg": "(iray) alina",
+          "en": "ten thousand, 10,000",
+          "note": "SAME spelling as alina (night)! Context tells them apart. Roa alina = 20,000; enina alina = 60,000."
+        },
+        {
+          "id": "hetsy",
+          "mg": "(iray) hetsy",
+          "en": "hundred thousand, 100,000",
+          "note": "Efatra hetsy = 400,000; valo hetsy = 800,000."
+        },
+        {
+          "id": "tapitrisa",
+          "mg": "tapitrisa",
+          "en": "million, 1,000,000",
+          "note": "tapitra (ended) + isa (number) — 'a number with an end'."
+        },
+        {
+          "id": "isa",
+          "mg": "isa",
+          "en": "number"
+        },
+        {
+          "id": "firy",
+          "mg": "Firy?",
+          "en": "How many?",
+          "note": "'Manana zoky firy ianao?' = How many older siblings do you have?"
+        },
+        {
+          "id": "firy_taona",
+          "mg": "Firy taona ianao?",
+          "en": "How old are you?",
+          "note": "Lit. 'how many years are you?'"
+        },
+        {
+          "id": "taona_age",
+          "mg": "taona",
+          "en": "year, years (of age)",
+          "note": "'Dimy ambin'ny enimpolo taona aho.' = I'm 65 (lit. five on top of sixty)."
+        },
+        {
+          "id": "vola",
+          "mg": "vola",
+          "en": "money",
+          "note": "Lit. 'silver' — from the old silver-coin era."
+        },
+        {
+          "id": "ariary",
+          "mg": "ariary",
+          "en": "ariary (Malagasy currency)",
+          "note": "1 ariary = 5 iraimbilanja. Prices are written in ariary (Ar)."
+        },
+        {
+          "id": "iraimbilanja",
+          "mg": "iraimbilanja",
+          "en": "franc (one fifth of an ariary)",
+          "note": "Old unit; many people still compute mentally in francs — a quoted price may sound five times too big."
+        },
+        {
+          "id": "madinika",
+          "mg": "madinika",
+          "en": "small change",
+          "note": "'Tsy misy madinika' = no change available."
+        },
+        {
+          "id": "betsaka",
+          "mg": "betsaka",
+          "en": "very many, much",
+          "note": "'Misaotra betsaka' = thanks a lot."
+        },
+        {
+          "id": "maro",
+          "mg": "maro",
+          "en": "many, numerous"
+        },
+        {
+          "id": "vitsy",
+          "mg": "vitsy",
+          "en": "few (countable)"
+        },
+        {
+          "id": "kely_number",
+          "mg": "kely",
+          "en": "small, a little"
+        },
+        {
+          "id": "ambiny",
+          "mg": "ambiny",
+          "en": "remainder, the rest"
+        },
+        {
+          "id": "antsasany",
+          "mg": "antsasany",
+          "en": "half of it"
+        }
+      ],
+      "construction_rules": [
+        "Numbers are READ RIGHT TO LEFT: for 37 say the units digit first — 'fito ambin'ny telopolo' (seven on top of thirty).",
+        "'Ambin'ny' (short for 'ambony ny' = on top of) connects a units digit to tens/hundreds through 199. Examples: 11 = iraika ambin'ny folo; 37 = fito ambin'ny telopolo; 65 = dimy ambin'ny enimpolo; 183 = telo ambin'ny valonjato ambin'ny zato.",
+        "From 200 upward, 'sy' (and) replaces 'ambin'ny' for the final units: 205 = roanjato sy dimy; 221 = roanjato roapolo sy iray.",
+        "Tens = digit + folo (roapolo 20, sivifolo 90). Hundreds = digit + jato (telonjato 300). Thousands = digit + arivo (dimy arivo 5,000). Ten-thousands = digit + alina (roa alina 20,000). Hundred-thousands = digit + hetsy (valo hetsy 800,000).",
+        "Counting things, the noun comes FIRST and the number after: 'atody telo' = three eggs; 'vary telo kapoaka' = three cups of rice; 'omby roa' = two zebu.",
+        "Prices are in ariary (Ar). People often still speak in the old francs — remember 5 francs = 1 ariary when a price sounds five times too big.",
+        "Age: 'Firy taona ianao?' — answer right-to-left: 72 = 'roa ambin'ny fitopolo taona aho.'"
+      ]
+    },
+    {
+      "id": "colors",
+      "title": "Colours — Ny Loko",
+      "curriculum_week": [
+        11
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_13.mp3"
+      ],
+      "bako_lessons": [
+        "theme 6"
+      ],
+      "words": [
+        {
+          "id": "loko",
+          "mg": "loko",
+          "en": "colour, paint",
+          "note": "'Inona ny lokon'ity akanjo ity?' = What colour is this garment?"
+        },
+        {
+          "id": "miloko",
+          "mg": "miloko",
+          "en": "to be coloured"
+        },
+        {
+          "id": "manga",
+          "mg": "manga",
+          "en": "blue",
+          "mg_tsm": "fondrana",
+          "note": "'Manga ny lanitra' = the sky is blue."
+        },
+        {
+          "id": "manga_antitra",
+          "mg": "manga antitra",
+          "en": "dark blue",
+          "note": "antitra = old/ripe — 'old' blue is dark blue."
+        },
+        {
+          "id": "manga_tanora",
+          "mg": "manga tanora",
+          "en": "light blue",
+          "note": "tanora = young — 'young' blue is light blue. Colours age: a lovely pattern to remember."
+        },
+        {
+          "id": "mena",
+          "mg": "mena",
+          "en": "red",
+          "mg_tsm": "fondramena",
+          "note": "Associated with sovereignty and ceremonies."
+        },
+        {
+          "id": "menamena",
+          "mg": "menamena",
+          "en": "reddish",
+          "note": "Doubling softens a colour: red-red = reddish."
+        },
+        {
+          "id": "mavo",
+          "mg": "mavo",
+          "en": "yellow",
+          "mg_tsm": "fondra"
+        },
+        {
+          "id": "mavokely",
+          "mg": "mavokely",
+          "en": "pink",
+          "note": "mavo + kely = 'little yellow' = pink."
+        },
+        {
+          "id": "maitso",
+          "mg": "maitso",
+          "en": "green",
+          "note": "'Maitsomaitso' = greenish. Note: Tsimihety says 'mahitsy' — but official 'mahitsy' means straight/upright!"
+        },
+        {
+          "id": "maitsomaitso",
+          "mg": "maitsomaitso",
+          "en": "greenish"
+        },
+        {
+          "id": "mainty",
+          "mg": "mainty",
+          "en": "black",
+          "mg_tsm": "mahintigny"
+        },
+        {
+          "id": "maintimainty",
+          "mg": "maintimainty",
+          "en": "jet black"
+        },
+        {
+          "id": "fotsy",
+          "mg": "fotsy",
+          "en": "white",
+          "note": "'Fotsifotsy' = whitish. White is the mourning colour in much of Madagascar."
+        },
+        {
+          "id": "fotsifotsy",
+          "mg": "fotsifotsy",
+          "en": "whitish"
+        },
+        {
+          "id": "volom_boasary",
+          "mg": "volom-boasary",
+          "en": "orange",
+          "mg_tsm": "fondramena",
+          "note": "Lit. 'orange-fruit coloured' (volo = colour, voasary = orange). Bako writes it 'volomboasary'."
+        },
+        {
+          "id": "volon_tsokola",
+          "mg": "volon-tsokolà",
+          "en": "brown",
+          "mg_tsm": "sokosokolа",
+          "note": "Lit. 'chocolate coloured' (tsokolà = chocolate). Bako: volon-tsokolà."
+        },
+        {
+          "id": "volon_davenona",
+          "mg": "volon-davenona",
+          "en": "grey",
+          "note": "Lit. 'ash coloured' (davenona = ash/embers)."
+        },
+        {
+          "id": "volontany",
+          "mg": "volontany",
+          "en": "brown (earth-coloured)",
+          "mg_tsm": "sokosokolа",
+          "note": "Lit. 'earth coloured' (tany = soil). Bako: 'Volontany' with Tsimihety 'sokosokolа'."
+        },
+        {
+          "id": "volomparasy",
+          "mg": "volomparasy",
+          "en": "purple",
+          "note": "Parasy is the traditional imported purple-red dye. Bako: 'Volomparasy'."
+        },
+        {
+          "id": "marevaka",
+          "mg": "marevaka",
+          "en": "bright, multicoloured, showy",
+          "note": "A compliment for a fine lamba! 'Tsara marevaka ity lamba ity!'"
+        },
+        {
+          "id": "samihafa",
+          "mg": "samihafa",
+          "en": "different, various",
+          "note": "'Miloko samihafa' = multicoloured (of different colours)."
+        }
+      ],
+      "culture_notes": [
+        "Adjectives come AFTER the noun and their order matters less than in English: 'akanjo manga' = a blue garment.",
+        "To ask: 'Inona ny lokon'ny ...?' (What colour is the ...?) or 'Inona ny loko tianao?' (What is your favourite colour?) — both from Bako's lesson 6.",
+        "Dark-coloured clothes are worn in mourning; bright ones for celebrations (Bako lesson 6)."
+      ]
+    },
+    {
+      "id": "time_calendar",
+      "title": "Time & Calendar — Ny Fotoana",
+      "curriculum_week": [
+        8
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_11.mp3"
+      ],
+      "bako_lessons": [
+        "theme 10",
+        "gram 15"
+      ],
+      "words": [
+        {
+          "id": "ora",
+          "mg": "ora",
+          "en": "hour, o'clock",
+          "mg_tsm": "lera",
+          "note": "Also 'watch/clock' in the compound famantarandro (off) — Tsimihety uses 'montre'."
+        },
+        {
+          "id": "minitra",
+          "mg": "minitra",
+          "en": "minute",
+          "note": "Used for DURATIONS, not for telling the time (Bako theme 10)."
+        },
+        {
+          "id": "segondra",
+          "mg": "segondra",
+          "en": "second",
+          "note": "Also duration only."
+        },
+        {
+          "id": "aminny_firy_izao",
+          "mg": "Amin'ny firy izao azafady?",
+          "en": "What time is it, please?",
+          "note": "Tsimihety: 'Amin'ny firy andro?'"
+        },
+        {
+          "id": "fotoana",
+          "mg": "fotoana",
+          "en": "time, moment",
+          "note": "'Fotoan-gasy' ('Malagasy time') — the friendly joke that appointments are flexible."
+        },
+        {
+          "id": "andro",
+          "mg": "andro",
+          "en": "day; also 'weather'",
+          "note": "'Ny andro' doubles as the weather word: 'Manao ahoana ny andro?' = How is the weather?"
+        },
+        {
+          "id": "androany",
+          "mg": "androany",
+          "en": "today"
+        },
+        {
+          "id": "omaly",
+          "mg": "omaly",
+          "en": "yesterday",
+          "note": "Note the official spelling 'omaly', though many write 'omaly'."
+        },
+        {
+          "id": "rahampitso",
+          "mg": "rahampitso",
+          "en": "tomorrow",
+          "note": "The everyday word for tomorrow; pairs with omaly (yesterday) and androany (today)."
+        },
+        {
+          "id": "rahampitso_tsm",
+          "mg": "amarainy",
+          "en": "tomorrow (Tsimihety)",
+          "note": "Heard alongside rahampitso in Mandritsara."
+        },
+        {
+          "id": "maraina",
+          "mg": "maraina",
+          "en": "morning (about 1 am–10 am)",
+          "mg_tsm": "maraindraigny",
+          "note": "Bako's time-of-day table: maraina covers roughly 1–10 am."
+        },
+        {
+          "id": "atoandro",
+          "mg": "atoandro",
+          "en": "midday, noon (about 11 am–1 pm)",
+          "mg_tsm": "matsagna",
+          "note": "'Amin'ny 12 atoandro' = at noon = mitataovovonana."
+        },
+        {
+          "id": "tolakandro",
+          "mg": "tolakandro",
+          "en": "afternoon (about 1–3 pm)",
+          "mg_tsm": "fôlakandro",
+          "note": "Bako also writes 'folakandro'."
+        },
+        {
+          "id": "folakandro",
+          "mg": "folakandro",
+          "en": "afternoon (variant)",
+          "note": "'Amin'ny 3 folakandro' = at 3 pm."
+        },
+        {
+          "id": "hariva",
+          "mg": "hariva",
+          "en": "evening (about 4 pm–sunset)",
+          "mg_tsm": "harivariva"
+        },
+        {
+          "id": "alina",
+          "mg": "alina",
+          "en": "night, evening (after sunset–midnight)",
+          "mg_tsm": "aligny",
+          "note": "ALSO means 10,000 in counting — context decides!"
+        },
+        {
+          "id": "misasakalina",
+          "mg": "misasakalina",
+          "en": "midnight",
+          "note": "Lit. 'half of the night'. Bako's clock table: 00:00."
+        },
+        {
+          "id": "mitataovovonana",
+          "mg": "mitataovovonana",
+          "en": "noon",
+          "note": "Lit. 'the sun sits on the ridge of the roof' — a beautiful image."
+        },
+        {
+          "id": "vaky_masoandro",
+          "mg": "vaky masoandro",
+          "en": "sunrise (6 am)",
+          "note": "Lit. 'sun breaks'. Bako's clock table."
+        },
+        {
+          "id": "maty_masoandro",
+          "mg": "maty masoandro",
+          "en": "sunset (6 pm)",
+          "note": "Lit. 'the sun dies'."
+        },
+        {
+          "id": "alatsinainy",
+          "mg": "Alatsinainy",
+          "en": "Monday",
+          "note": "The weekday names come from traditional cosmology (see culture notes)."
+        },
+        {
+          "id": "talata",
+          "mg": "Talata",
+          "en": "Tuesday"
+        },
+        {
+          "id": "alarobia",
+          "mg": "Alarobia",
+          "en": "Wednesday"
+        },
+        {
+          "id": "alakamisy",
+          "mg": "Alakamisy",
+          "en": "Thursday"
+        },
+        {
+          "id": "zoma",
+          "mg": "Zoma",
+          "en": "Friday",
+          "note": "'Zoma' also simply means 'week' in some compounds — but the day is Zoma."
+        },
+        {
+          "id": "sabotsy",
+          "mg": "Sabotsy",
+          "en": "Saturday"
+        },
+        {
+          "id": "alahady",
+          "mg": "Alahady",
+          "en": "Sunday",
+          "note": "From Arabic 'al-had' — the day of the week with an Arabic-name origin."
+        },
+        {
+          "id": "herinandro",
+          "mg": "herinandro",
+          "en": "week",
+          "note": "heri- + andro = 'a span of days'."
+        },
+        {
+          "id": "herinandro_ambony",
+          "mg": "herinandro ambony",
+          "en": "next week"
+        },
+        {
+          "id": "herinandro_lasa",
+          "mg": "herinandro lasa",
+          "en": "last week"
+        },
+        {
+          "id": "volana",
+          "mg": "volana",
+          "en": "month; moon",
+          "note": "The month IS the moon — traditional months follow lunar observation."
+        },
+        {
+          "id": "taona",
+          "mg": "taona",
+          "en": "year",
+          "note": "Also 'age': 'Firy taona ianao?'"
+        },
+        {
+          "id": "tsinovolana",
+          "mg": "tsinovolana",
+          "en": "new moon",
+          "note": "Also a girls' name!"
+        },
+        {
+          "id": "volana_fahafolo",
+          "mg": "volana fahafolo",
+          "en": "tenth month / October",
+          "note": "Months simply pair the number with volana for ordinal counting (volana voalohany = January)."
+        },
+        {
+          "id": "janoary",
+          "mg": "Janoary",
+          "en": "January"
+        },
+        {
+          "id": "febroary",
+          "mg": "Febroary",
+          "en": "February"
+        },
+        {
+          "id": "martsa",
+          "mg": "Martsa",
+          "en": "March"
+        },
+        {
+          "id": "aprily",
+          "mg": "Aprily",
+          "en": "April"
+        },
+        {
+          "id": "mey",
+          "mg": "Mey",
+          "en": "May"
+        },
+        {
+          "id": "jona",
+          "mg": "Jona",
+          "en": "June"
+        },
+        {
+          "id": "jolay",
+          "mg": "Jolay",
+          "en": "July"
+        },
+        {
+          "id": "aogositra",
+          "mg": "Aogositra",
+          "en": "August"
+        },
+        {
+          "id": "septambra",
+          "mg": "Septambra",
+          "en": "September"
+        },
+        {
+          "id": "oktobra",
+          "mg": "Oktobra",
+          "en": "October"
+        },
+        {
+          "id": "novambra",
+          "mg": "Novambra",
+          "en": "November"
+        },
+        {
+          "id": "desambra",
+          "mg": "Desambra",
+          "en": "December"
+        },
+        {
+          "id": "fahavaratra",
+          "mg": "fahavaratra",
+          "en": "summer / hot rainy season (roughly Oct–Mar)",
+          "mg_tsm": "asaratra",
+          "note": "The 'thunder-time' of the old year. Opposite: ririnina."
+        },
+        {
+          "id": "lohataona",
+          "mg": "lohataona",
+          "en": "spring (roughly Aug–Oct)",
+          "note": "Lit. 'the head of the year'."
+        },
+        {
+          "id": "fararano",
+          "mg": "fararano",
+          "en": "autumn (roughly Apr–May)",
+          "note": "Bako: 'equivalent to autumn'."
+        },
+        {
+          "id": "ririnina",
+          "mg": "ririnina",
+          "en": "winter / cool dry season (roughly Jun–Aug)",
+          "mg_tsm": "maintany",
+          "note": "Lit. 'time of bareness' — grass dries and withers."
+        },
+        {
+          "id": "vanin_taona",
+          "mg": "vanin-taona",
+          "en": "season"
+        },
+        {
+          "id": "tsy_mitovy",
+          "mg": "tsy mitovy",
+          "en": "not the same; different",
+          "note": "Handy for discussing seasons: Madagascar's seasons are the reverse of America's!"
+        }
+      ],
+      "construction_rules": [
+        "Clock time: use numbers 1–12 plus a time-of-day word. 'Amin'ny telo maraina' = at 3 am; 'Amin'ny telo tolakandro' = at 3 pm; 'Amin'ny enina hariva' = at 6 pm. (Bako theme 10.)",
+        "'Minitra' and 'segondra' are for durations only ('Nandeha adin-roa izy' = he travelled 2 hours) — not for saying 'it's 3:05'.",
+        "Appointments: 'Hihaona amin'ny Zoma amin'ny efatra isika' = We'll meet Friday at four (curriculum Week 8).",
+        "Many Malagasy, mostly farmers, also read time from life events: 'maneno akoho' (rooster crows ≈ 3 am), 'vaky masoandro' (sunrise = 6 am), 'mody omby' (zebus come home ≈ 5 pm) — from Bako's clock table.",
+        "Past & future with days: 'omaly' (yesterday) and 'rahampitso' (tomorrow) combine with the tense marker on the verb: 'Inona no nataonao omaly?' = What did you do yesterday? (curriculum Week 9)."
+      ]
+    },
+    {
+      "id": "weather_nature",
+      "title": "Weather & Nature — Ny Toetr'andro sy ny Zavaboary",
+      "curriculum_week": [
+        11
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_12.mp3"
+      ],
+      "bako_lessons": [
+        "theme 3"
+      ],
+      "words": [
+        {
+          "id": "andro_weather",
+          "mg": "ny andro",
+          "en": "the weather",
+          "note": "'Manao ahoana ny andro?' / 'Manakory ny andro?' = How is the weather?"
+        },
+        {
+          "id": "toetr_andro",
+          "mg": "toetr'andro",
+          "en": "weather, climate",
+          "note": "'Ny andro sy ny toetr'andro' = Bako's weather lesson title."
+        },
+        {
+          "id": "masoandro",
+          "mg": "masoandro",
+          "en": "sun",
+          "mg_tsm": "masôva",
+          "note": "Lit.'eye of the day'. Position of the sun tells morning from afternoon."
+        },
+        {
+          "id": "raho",
+          "mg": "rahona",
+          "en": "cloud",
+          "mg_tsm": "rôndro",
+          "note": "'Mandrahona ny andro' = it's cloudy."
+        },
+        {
+          "id": "orana",
+          "mg": "orana",
+          "en": "rain",
+          "mg_tsm": "ôragnandro",
+          "note": "'Avy ny orana' / 'latsaka ny orana' = it's raining."
+        },
+        {
+          "id": "rivotra",
+          "mg": "rivotra",
+          "en": "wind",
+          "mg_tsm": "rivotro",
+          "note": "'Mandrivotra ny andro' = it's windy."
+        },
+        {
+          "id": "lanitra",
+          "mg": "lanitra",
+          "en": "sky; heaven",
+          "mg_tsm": "langitry",
+          "note": "'Manga ny lanitra' = the sky is blue."
+        },
+        {
+          "id": "zavona",
+          "mg": "zavona",
+          "en": "fog, mist",
+          "mg_tsm": "vôndro",
+          "note": "'Manjavona ny andro' = it's foggy."
+        },
+        {
+          "id": "tselatra",
+          "mg": "tselatra",
+          "en": "lightning",
+          "note": "'Mitselatra' = there is lightning."
+        },
+        {
+          "id": "varatra",
+          "mg": "varatra",
+          "en": "thunder; thunderbolt",
+          "note": "'Mikotroka' = it thunders; 'kotroka' = thunder/the roar of falling water."
+        },
+        {
+          "id": "mafana",
+          "mg": "mafana",
+          "en": "hot, warm",
+          "note": "'Mafana ny andro' = it's hot (official); Tsimihety: 'mahamay ny andro'."
+        },
+        {
+          "id": "mahamay",
+          "mg": "mahamay",
+          "en": "hot (Tsimihety)",
+          "note": "Bako: 'Mafana ny andro (off) / mahamay ny andro (tsm)'."
+        },
+        {
+          "id": "mangatsiaka",
+          "mg": "mangatsiaka",
+          "en": "cold, cool",
+          "mg_tsm": "manintsy",
+          "note": "'Mangatsiaka ny andro' = it's cold."
+        },
+        {
+          "id": "manintsy",
+          "mg": "manintsy",
+          "en": "cold (Tsimihety)",
+          "note": "Bako: 'Mangatsiaka (off) / manintsy (tsm)'."
+        },
+        {
+          "id": "mando",
+          "mg": "mando",
+          "en": "humid, damp, wet",
+          "note": "The four Malagasy seasons pair hot/cold with humid/dry."
+        },
+        {
+          "id": "maina",
+          "mg": "maina",
+          "en": "dry",
+          "mg_tsm": "maigny",
+          "note": "'Maina ny andro' = the weather is dry."
+        },
+        {
+          "id": "rotsak_orana",
+          "mg": "Avy ny orana!",
+          "en": "It's raining!",
+          "note": "Bako: 'Avy ny orana - latsaka ny orana' = it's raining."
+        },
+        {
+          "id": "tsara_ny_andro",
+          "mg": "Tsara ny andro.",
+          "en": "The weather is nice (sunny).",
+          "note": "For a weather forecast, 'good weather' means sunny and without rain."
+        },
+        {
+          "id": "ratsy_ny_andro",
+          "mg": "Ratsy ny andro.",
+          "en": "The weather is bad (clouds, rain).",
+          "note": "Farmers may not agree — rain at planting time is good news!"
+        },
+        {
+          "id": "fotoan_orana",
+          "mg": "fotoan'ny orana / fahavaratra",
+          "en": "rainy season",
+          "note": "Many local names exist; fahavaratra is the big rainy season (roughly Oct-Mar)."
+        },
+        {
+          "id": "kintana",
+          "mg": "kintana",
+          "en": "star",
+          "note": "Malagasy traditional astrology (mpanandro) reads the day by the kintana."
+        },
+        {
+          "id": "volana_moon",
+          "mg": "volana",
+          "en": "moon",
+          "note": "Same word as month — the moon marks the months."
+        },
+        {
+          "id": "tany",
+          "mg": "tany",
+          "en": "earth, land, ground, soil",
+          "note": "'Lemaka tany'... 'tany' also appears in maladroit ways — best learned as-is."
+        },
+        {
+          "id": "hazo",
+          "mg": "hazo",
+          "en": "tree; also wood",
+          "note": "Madagascar's trees include the baobab (renala) and the ravinala (traveler's tree)."
+        },
+        {
+          "id": "renala",
+          "mg": "renala",
+          "en": "baobab",
+          "note": "Lit. 'mother of the forest'; the giant baobabs of the southwest."
+        },
+        {
+          "id": "ravinala",
+          "mg": "ravinala",
+          "en": "traveler's tree",
+          "note": "The national symbol; its leaf-stems hold drinking water for travelers."
+        },
+        {
+          "id": "voninkazo",
+          "mg": "voninkazo",
+          "en": "flower",
+          "note": "Also 'vony'."
+        },
+        {
+          "id": "vony",
+          "mg": "vony",
+          "en": "flower (short form)"
+        },
+        {
+          "id": "ravina",
+          "mg": "ravina",
+          "en": "leaf",
+          "note": "Also 'a sheet of something' (paper etc.)."
+        },
+        {
+          "id": "bozaka",
+          "mg": "bozaka",
+          "en": "grass, thatch grass",
+          "note": "Used for traditional roofs: 'tafo bozaka'."
+        },
+        {
+          "id": "ahitra",
+          "mg": "ahitra",
+          "en": "grass, herbs, weeds"
+        },
+        {
+          "id": "ala",
+          "mg": "ala",
+          "en": "forest, woods",
+          "note": "Madagascar's eastern rainforest is 'ala mando' (humid forest); the dry spiny forest of the south is very different."
+        },
+        {
+          "id": "ony",
+          "mg": "ony",
+          "en": "river",
+          "note": "Fishing, washing, and transport all happen on the ony."
+        },
+        {
+          "id": "riaka",
+          "mg": "riaka",
+          "en": "sea, salt water",
+          "note": "Also means 'water hole, inlet'."
+        },
+        {
+          "id": "ranomasina",
+          "mg": "ranomasina",
+          "en": "the sea (salt water)",
+          "note": "Lit. 'salt water' (rano + masina)."
+        },
+        {
+          "id": "fasika",
+          "mg": "fasika",
+          "en": "sand",
+          "note": "The beautiful white-sand beaches of Nosy Be..."
+        },
+        {
+          "id": "havoana",
+          "mg": "havoana",
+          "en": "hill"
+        },
+        {
+          "id": "tendrombohitra",
+          "mg": "tendrombohitra",
+          "en": "mountain, mountain summit",
+          "note": "Madagascar's highest ridges: the Tsaratanana massif."
+        },
+        {
+          "id": "tendron",
+          "mg": "tendron'ny Nosy",
+          "en": "cape, point of land",
+          "note": "From tendrona = tip."
+        }
+      ]
+    },
+    {
+      "id": "animals",
+      "title": "Animals — Ny Biby",
+      "curriculum_week": [
+        4,
+        11
+      ],
+      "bako_lessons": [
+        "theme 9"
+      ],
+      "words": [
+        {
+          "id": "biby",
+          "mg": "biby",
+          "en": "animal, beast",
+          "note": "'Biby mampinono' = mammal; 'biby manatody' = egg-laying animal."
+        },
+        {
+          "id": "bibikely",
+          "mg": "bibikely",
+          "en": "insect",
+          "note": "Lit. 'little animal'."
+        },
+        {
+          "id": "vorona",
+          "mg": "vorona",
+          "en": "bird",
+          "note": "'Voronkely' = small bird; 'vorona' covers all birds."
+        },
+        {
+          "id": "gidro",
+          "mg": "gidro",
+          "en": "lemur",
+          "mg_tsm": "komba",
+          "note": "Madagascar's most famous endemic family — over 100 species."
+        },
+        {
+          "id": "fosa",
+          "mg": "fosa",
+          "en": "fossa (Madagascar's largest carnivore)",
+          "note": "Cat-like predator related to mongooses; hunts lemurs at night."
+        },
+        {
+          "id": "tanalahy",
+          "mg": "tanalahy",
+          "en": "chameleon",
+          "mg_tsm": "kandrondro",
+          "note": "Lit. 'master of the forest' — 'kandrondro' in Tsimihety."
+        },
+        {
+          "id": "kankafotra",
+          "mg": "kankafotra",
+          "en": "chameleon (small species)",
+          "note": "The task brief's 'camaleinty' maps to the dwarf chameleon of Madagascar - official Malagasy: kankafotra; general word: tanalahy."
+        },
+        {
+          "id": "voay",
+          "mg": "voay",
+          "en": "crocodile",
+          "note": "Also 'mamba' — an old Bantu loanword. Both are in malagasyword.org."
+        },
+        {
+          "id": "mamba",
+          "mg": "mamba",
+          "en": "crocodile (Bantu loanword)",
+          "note": "Careful: 'mamba' in official Malagasy can also mean a python."
+        },
+        {
+          "id": "bibilava",
+          "mg": "bibilava",
+          "en": "snake",
+          "note": "Lit. 'long animal'. Madagascar has NO venomous land snakes — a reassuring fact!"
+        },
+        {
+          "id": "sokatra",
+          "mg": "sokatra",
+          "en": "turtle, tortoise",
+          "mg_tsm": "kapiky",
+          "note": "The endemic radiated tortoise is 'sokabe'."
+        },
+        {
+          "id": "sokabe",
+          "mg": "sokabe",
+          "en": "giant tortoise / radiated tortoise",
+          "note": "The radiated tortoise - sadly nearly extinct in the wild due to poaching."
+        },
+        {
+          "id": "sahona",
+          "mg": "sahona",
+          "en": "frog",
+          "note": "'Maneno sahona' = the frogs croak (= 2 am, from Bako's clock table!)."
+        },
+        {
+          "id": "omby",
+          "mg": "omby",
+          "en": "zebu, cattle",
+          "mg_tsm": "aomby",
+          "note": "The wealth, savings, and splendor of the household; 'omby lahy' = bull."
+        },
+        {
+          "id": "zebu_tantara",
+          "mg": "zebu",
+          "en": "zebu (the humped cattle)",
+          "note": "From 'zebu' via French; 'omby' is the everyday word."
+        },
+        {
+          "id": "kisoa",
+          "mg": "kisoa",
+          "en": "pig",
+          "mg_tsm": "kisoà / lambo",
+          "note": "Rural pigs roam freely; henakisoa = pork."
+        },
+        {
+          "id": "alika",
+          "mg": "alika",
+          "en": "dog",
+          "mg_tsm": "amboa",
+          "note": "Guardian and companion; usually lives outdoors."
+        },
+        {
+          "id": "saka",
+          "mg": "saka",
+          "en": "cat",
+          "mg_tsm": "piso",
+          "note": "Mousers in the rice stores."
+        },
+        {
+          "id": "akoho",
+          "mg": "akoho",
+          "en": "chicken",
+          "note": "Also the clock: 'maneno akoho tokana' = the rooster crows once (3 am)."
+        },
+        {
+          "id": "akoho_lay",
+          "mg": "akoho lahy",
+          "en": "rooster",
+          "note": "Number-first counting: akoho lahy = male chicken."
+        },
+        {
+          "id": "gana",
+          "mg": "gana",
+          "en": "duck",
+          "mg_tsm": "drakidraky"
+        },
+        {
+          "id": "gisa",
+          "mg": "gisa",
+          "en": "goose",
+          "mg_tsm": "gisy"
+        },
+        {
+          "id": "vorontsiloza",
+          "mg": "vorontsiloza",
+          "en": "turkey",
+          "mg_tsm": "kolokoloko",
+          "note": "Lit. 'blue-peacock bird'; 'kolokoloko' in Tsimihety."
+        },
+        {
+          "id": "ondry",
+          "mg": "ondry",
+          "en": "sheep",
+          "mg_tsm": "ondrikondriky"
+        },
+        {
+          "id": "osy",
+          "mg": "osy",
+          "en": "goat",
+          "mg_tsm": "bengy"
+        },
+        {
+          "id": "bitro",
+          "mg": "bitro",
+          "en": "rabbit"
+        },
+        {
+          "id": "soavaly",
+          "mg": "soavaly",
+          "en": "horse",
+          "mg_tsm": "savalikaka"
+        },
+        {
+          "id": "aondra",
+          "mg": "aondra",
+          "en": "donkey",
+          "mg_tsm": "boriky",
+          "note": "Also 'boriky'."
+        },
+        {
+          "id": "boriky",
+          "mg": "boriky",
+          "en": "donkey (Tsimihety; also used officially)"
+        },
+        {
+          "id": "trondro_animal",
+          "mg": "trondro",
+          "en": "fish",
+          "mg_tsm": "lako"
+        },
+        {
+          "id": "foza",
+          "mg": "foza",
+          "en": "crab",
+          "note": "Mangrove crabs are a coastal delicacy."
+        },
+        {
+          "id": "makamba",
+          "mg": "makamba",
+          "en": "shrimp, prawn"
+        },
+        {
+          "id": "renintantely",
+          "mg": "renintantely",
+          "en": "bee, mother-bee",
+          "mg_tsm": "renim-pandrama",
+          "note": "Lit. 'mother of the honey' — honey (tantely) comes from her."
+        },
+        {
+          "id": "tantely",
+          "mg": "tantely",
+          "en": "honey"
+        },
+        {
+          "id": "valala",
+          "mg": "valala",
+          "en": "grasshopper, locust",
+          "mg_tsm": "mendry",
+          "note": "Traditionally eaten toasted! 'Mendry' in Tsimihety."
+        },
+        {
+          "id": "moka",
+          "mg": "moka",
+          "en": "mosquito",
+          "mg_tsm": "aloa",
+          "note": "One real health concern on the east coast — pack the lay (mosquito net)!"
+        },
+        {
+          "id": "vitsika",
+          "mg": "vitsika",
+          "en": "ant",
+          "mg_tsm": "visiky",
+          "note": "There are no ants in the world quite like Madagascar's... watch the little ones."
+        },
+        {
+          "id": "lolo",
+          "mg": "lolo",
+          "en": "butterfly, moth",
+          "mg_tsm": "golagola"
+        },
+        {
+          "id": "hala",
+          "mg": "hala",
+          "en": "spider",
+          "mg_tsm": "fôko"
+        },
+        {
+          "id": "parasy",
+          "mg": "parasy",
+          "en": "flea; lice",
+          "mg_tsm": "pia"
+        },
+        {
+          "id": "lolo_borera",
+          "mg": "lolo borera",
+          "en": "moth (variant)",
+          "note": "Distinct from lolo (butterfly) in some regions."
+        },
+        {
+          "id": "vorompotsy",
+          "mg": "vorompotsy",
+          "en": "egret, cattle egret",
+          "mg_tsm": "kilandy",
+          "note": "White birds that follow the zebus in the fields."
+        },
+        {
+          "id": "voromailala",
+          "mg": "voromailala",
+          "en": "dove, pigeon",
+          "mg_tsm": "pizina",
+          "note": "Symbol of peace; 'pizina' in Tsimihety."
+        },
+        {
+          "id": "papango",
+          "mg": "papango",
+          "en": "kite (bird of prey)",
+          "note": "A scavenging hawk seen circling villages."
+        },
+        {
+          "id": "fody",
+          "mg": "fody",
+          "en": "fody (red cardinal fody)",
+          "note": "The small red sparrow-like bird of the highlands."
+        },
+        {
+          "id": "vorontsara",
+          "mg": "vorontsara",
+          "en": "cuckoo-roller (Leptosomus)",
+          "note": "Its call marks the arrival of the rainy season in many regions."
+        },
+        {
+          "id": "totozy",
+          "mg": "totozy",
+          "en": "mouse",
+          "mg_tsm": "tsivingivingy"
+        },
+        {
+          "id": "voalavo",
+          "mg": "voalavo",
+          "en": "rat",
+          "mg_tsm": "valavo"
+        },
+        {
+          "id": "andriolo",
+          "mg": "androngo",
+          "en": "lizard, gecko",
+          "mg_tsm": "katsatsaka",
+          "note": "The friendly house gecko that eats mosquitoes."
+        },
+        {
+          "id": "sokina",
+          "mg": "sokina",
+          "en": "hedgehog, tenrec",
+          "note": "Madagascar has many endemic tenrecs — hedgehog-like insect eaters."
+        },
+        {
+          "id": "sifaka",
+          "mg": "sifaka",
+          "en": "sifaka (dancing lemur)",
+          "note": "The lemur that 'dances' sideways on the ground."
+        },
+        {
+          "id": "babakoto",
+          "mg": "babakoto",
+          "en": "indri",
+          "note": "The largest living lemur; its song carries kilometers in the eastern rainforest."
+        },
+        {
+          "id": "may",
+          "mg": "mai",
+          "en": "whale"
+        },
+        {
+          "id": "trozona",
+          "mg": "trozona",
+          "en": "whale",
+          "note": "Humpbacks calve around Sainte-Marie every July–September."
+        },
+        {
+          "id": "lambo",
+          "mg": "lambo",
+          "en": "wild pig, bushpig",
+          "note": "Forest pig, hunted traditionally."
+        },
+        {
+          "id": "antsantsa",
+          "mg": "antsantsa",
+          "en": "shark"
+        },
+        {
+          "id": "gecko_maitso",
+          "mg": "tana maitso",
+          "en": "green day gecko",
+          "note": "The bright green day geckos (Phelsuma) - emblematic of Madagascar."
+        }
+      ],
+      "culture_notes": [
+        "Female = vavy, male = lahy, young = zanaka or kely added to the animal's name: akoho lahy = rooster, akoho vavy = hen, akoho zanaka = chick (Bako theme 9).",
+        "Zebu carry deep cultural meaning: dowry, sacrifice, funerals, savings, and status. Among some ethnic groups a boy becomes a man after acquiring his first zebu.",
+        "Madagascar has no venomous animals — a comforting fact for a nervous traveler (Bako theme 9).",
+        "Seeing certain birds (crow, owl) carries superstitious meaning for many Malagasy (Bako theme 9)."
+      ]
+    },
+    {
+      "id": "body_health",
+      "title": "Body & Health — Ny Vatan'ny Olona sy Ny Aretina",
+      "curriculum_week": [
+        10
+      ],
+      "bako_lessons": [
+        "theme 7a",
+        "theme 7b"
+      ],
+      "words": [
+        {
+          "id": "vatana",
+          "mg": "vatana",
+          "en": "the body"
+        },
+        {
+          "id": "loha",
+          "mg": "loha",
+          "en": "head",
+          "mg_tsm": "lôha"
+        },
+        {
+          "id": "volo",
+          "mg": "volo",
+          "en": "hair",
+          "mg_tsm": "maramaragna",
+          "note": "Also 'colour' in compounds (volom-boasary = orange)."
+        },
+        {
+          "id": "maso",
+          "mg": "maso",
+          "en": "eye",
+          "note": "'Aiza ny maso?' = Where are the eyes? — TPR drill from Bako 7a."
+        },
+        {
+          "id": "sofina",
+          "mg": "sofina",
+          "en": "ear",
+          "mg_tsm": "sôfigny"
+        },
+        {
+          "id": "orona",
+          "mg": "orona",
+          "en": "nose",
+          "mg_tsm": "ôrogno"
+        },
+        {
+          "id": "vava",
+          "mg": "vava",
+          "en": "mouth"
+        },
+        {
+          "id": "nify",
+          "mg": "nify",
+          "en": "tooth, teeth",
+          "note": "Toothache: 'marary nify'."
+        },
+        {
+          "id": "lela",
+          "mg": "lela",
+          "en": "tongue",
+          "note": "Also 'language' in the sense of tongue (fiteny = speech/language)."
+        },
+        {
+          "id": "tarehy",
+          "mg": "tarehy",
+          "en": "face",
+          "mg_tsm": "sôra"
+        },
+        {
+          "id": "tenda",
+          "mg": "tenda",
+          "en": "neck; throat",
+          "note": "Sore throat: 'marary tenda'."
+        },
+        {
+          "id": "soroka",
+          "mg": "soroka",
+          "en": "shoulder, shoulders",
+          "mg_tsm": "havay"
+        },
+        {
+          "id": "tratra",
+          "mg": "tratra",
+          "en": "chest",
+          "note": "Chest pain: 'marary tratra'."
+        },
+        {
+          "id": "kibo",
+          "mg": "kibo",
+          "en": "belly, stomach",
+          "mg_tsm": "bôko",
+          "note": "Possessive: kiboko = my stomach/belly."
+        },
+        {
+          "id": "lamosina",
+          "mg": "lamosina",
+          "en": "back",
+          "mg_tsm": "tahezagna"
+        },
+        {
+          "id": "tanana",
+          "mg": "tànana",
+          "en": "hand, hands, arm(s)",
+          "note": "Note the accent: tànana (hand) is different from tanana (town)!"
+        },
+        {
+          "id": "rantsan_tanana",
+          "mg": "rantsan-tànana",
+          "en": "finger(s)",
+          "note": "Lit. 'branch of the hand'."
+        },
+        {
+          "id": "tongotra",
+          "mg": "tongotra",
+          "en": "leg, foot",
+          "mg_tsm": "hongotro",
+          "note": "Possessive: tongotro = my foot."
+        },
+        {
+          "id": "rantsan_tongotra",
+          "mg": "rantsan-tongotra",
+          "en": "toe(s)",
+          "note": "Lit. 'branch of the foot'."
+        },
+        {
+          "id": "lohalika",
+          "mg": "lohalika",
+          "en": "knee",
+          "note": "Verified on malagasyword.org."
+        },
+        {
+          "id": "kiho",
+          "mg": "kiho",
+          "en": "elbow",
+          "note": "Verified on malagasyword.org; also 'anything with a bend in it'."
+        },
+        {
+          "id": "rantsam_batana",
+          "mg": "rantsam-batana",
+          "en": "the limbs",
+          "note": "From Bako theme 7a."
+        },
+        {
+          "id": "hoditra",
+          "mg": "hoditra",
+          "en": "skin",
+          "note": "'Mafana hoditra izy' = he has a fever (hot skin)."
+        },
+        {
+          "id": "ra",
+          "mg": "ra",
+          "en": "blood",
+          "note": "A sensitive word: blood is fady (taboo) in some village contexts - handled indirectly in polite talk."
+        },
+        {
+          "id": "fahasalamana_word",
+          "mg": "fahasalamana",
+          "en": "health",
+          "note": "'Mahasalama ve ianao?' = Are you well?"
+        },
+        {
+          "id": "marary",
+          "mg": "marary",
+          "en": "sick, painful; patient; pain",
+          "note": "One word, four uses — Bako theme 7b: 'ny marary' (the patient), 'marary' (painful)."
+        },
+        {
+          "id": "aretina",
+          "mg": "aretina",
+          "en": "illness, disease"
+        },
+        {
+          "id": "dokotera_health",
+          "mg": "dokotera",
+          "en": "doctor",
+          "note": "'Mila dokotera aho!' = I need a doctor!"
+        },
+        {
+          "id": "hopitaly",
+          "mg": "hopitaly",
+          "en": "hospital",
+          "note": "'Aiza ny hopitaly azafady?' = Where is the hospital, please?"
+        },
+        {
+          "id": "fanafody",
+          "mg": "panafody",
+          "en": "medicine, drug",
+          "note": "Fromody (root) + fan- (instrument): 'that which cures'. Traditional medicine is widely trusted."
+        },
+        {
+          "id": "fivarotam_panafody",
+          "mg": "fivarotam-panafody",
+          "en": "pharmacy",
+          "note": "Verified on malagasyword.org; also 'famoaham-panafody'."
+        },
+        {
+          "id": "vonjeo",
+          "mg": "Vonjeo aho!",
+          "en": "Help me! / rescue me!",
+          "note": "The single most important emergency word — from the curriculum Week 10 roleplay."
+        },
+        {
+          "id": "mila_dokotera",
+          "mg": "Mila dokotera aho!",
+          "en": "I need a doctor!",
+          "note": "Curriculum Week 10 emergency phrase."
+        },
+        {
+          "id": "voanny_sery",
+          "mg": "Voan'ny sery aho.",
+          "en": "I have a cold.",
+          "note": "Lit.'caught by the cold'; Tsimihety: 'azon-tsery'."
+        },
+        {
+          "id": "voanny_tazo",
+          "mg": "Voan'ny tazo aho.",
+          "en": "I have a fever.",
+          "note": "Tazo can also mean malaria fever (tazo moka = malaria)."
+        },
+        {
+          "id": "voanny_tazo_moka",
+          "mg": "Voan'ny tazo moka aho.",
+          "en": "I have malaria.",
+          "note": "'Mosquito fever' (tazo moka) — if fever persists after travel to the coast, insist on a malaria test."
+        },
+        {
+          "id": "marary_tenda",
+          "mg": "Marary tenda aho.",
+          "en": "My throat hurts.",
+          "note": "'Marary + body part' = I have pain in ... (Bako theme 7b pattern)."
+        },
+        {
+          "id": "marary_nify",
+          "mg": "Marary nify aho.",
+          "en": "I have a toothache."
+        },
+        {
+          "id": "marary_andoha",
+          "mg": "Marary an-doha aho.",
+          "en": "I have a headache.",
+          "note": "An-doha = on-the-head (liaison n)."
+        },
+        {
+          "id": "marary_tratra",
+          "mg": "Marary tratra aho.",
+          "en": "My chest hurts."
+        },
+        {
+          "id": "marary_kibo",
+          "mg": "Marary kibo aho.",
+          "en": "My stomach hurts."
+        },
+        {
+          "id": "mikohaka",
+          "mg": "mikohaka",
+          "en": "to cough",
+          "note": "'Mikohaka hatramin'ny Talata aho' = I've been coughing since Tuesday."
+        },
+        {
+          "id": "mandoa",
+          "mg": "mandoa",
+          "en": "to vomit"
+        },
+        {
+          "id": "fanina",
+          "mg": "fanina",
+          "en": "dizzy",
+          "note": "'Fanina aho' = I feel dizzy (Bako theme 7b)."
+        },
+        {
+          "id": "sery",
+          "mg": "sery",
+          "en": "a cold (the sniffles)"
+        },
+        {
+          "id": "tazo",
+          "mg": "tazo",
+          "en": "fever"
+        },
+        {
+          "id": "tsisy_marary",
+          "mg": "Tsisy marary.",
+          "en": "There is no pain / nobody is sick.",
+          "note": "Bako theme 7b: a reassuring phrase for the doctor's questions."
+        },
+        {
+          "id": "tsy_marary",
+          "mg": "Tsy marary.",
+          "en": "I'm not sick / it doesn't hurt.",
+          "note": "Key answer to the doctor's 'Marary ve?'"
+        },
+        {
+          "id": "iza_no_marary",
+          "mg": "Iza no marary?",
+          "en": "Who is sick?",
+          "note": "Standard doctor's question (Bako theme 7b)."
+        },
+        {
+          "id": "inona_no_marary",
+          "mg": "Inona no marary?",
+          "en": "What is the problem? / what hurts?",
+          "note": "The doctor asks this, literally 'what is the sick one?'"
+        },
+        {
+          "id": "aiza_no_marary",
+          "mg": "Aiza no marary?",
+          "en": "Where does it hurt?"
+        },
+        {
+          "id": "kabone",
+          "mg": "kabone",
+          "en": "toilet, outhouse",
+          "note": "Peace Corps Lesson 6: 'Aiza ny kabone?' = Where is the toilet?"
+        },
+        {
+          "id": "ladosy",
+          "mg": "ladosy",
+          "en": "shower",
+          "note": "Loanword from French 'douche' (via ladosy)."
+        },
+        {
+          "id": "reraka",
+          "mg": "Reraka aho.",
+          "en": "I'm tired.",
+          "note": "Peace Corps Lesson 6 feeling."
+        },
+        {
+          "id": "matory",
+          "mg": "matory",
+          "en": "to sleep, to be asleep",
+          "note": "'Te hatory aho' = I want to sleep."
+        },
+        {
+          "id": "mandry",
+          "mg": "mandry",
+          "en": "to lie down, to go to bed",
+          "mg_tsm": "mandry",
+          "note": "'Mandeha mandry aho' = I'm going to bed (Bako theme 14)."
+        },
+        {
+          "id": "mifoha",
+          "mg": "mifoha",
+          "en": "to wake up",
+          "mg_tsm": "mionjogno",
+          "note": "Bako's clock: 'mifoha olo-mazoto' = hard-working people wake up (5 am)."
+        },
+        {
+          "id": "sasatra",
+          "mg": "miala sasatra",
+          "en": "to rest",
+          "mg_tsm": "magnala disaka"
+        },
+        {
+          "id": "marary_ve_iza",
+          "mg": "Marary ve ianao?",
+          "en": "Are you sick? / does it hurt?",
+          "note": "Simple and essential check-in question."
+        },
+        {
+          "id": "misitranina",
+          "mg": "misitranina",
+          "en": "to recover, be healed",
+          "note": "'Misitranina ny marary.' = The patient is recovering. Past: nisitranina."
+        }
+      ],
+      "culture_notes": [
+        "Medical infrastructure is limited outside cities; rural Malagasy rely heavily on traditional herbal medicine whose recipes pass down orally (Bako theme 7b).",
+        "The possessive suffix attaches to body parts: lohako = my head, tanako = my hand, kiboko = my stomach, tongotro = my foot (curriculum Week 10).",
+        "Many villages observe fady (taboos) around certain sicknesses, foods, or places — always ask before overriding a local custom.",
+        "Practical elderly-traveler tip: carry written Malagasy emergency sentences ('Vonjeo aho!', 'Mila dokotera aho!', 'Aiza ny hopitaly?') along with your insurance details."
+      ]
+    },
+    {
+      "id": "house_objects",
+      "title": "The House & Its Things — Ny Trano",
+      "curriculum_week": [
+        4,
+        12
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_14.mp3"
+      ],
+      "bako_lessons": [
+        "theme 2"
+      ],
+      "words": [
+        {
+          "id": "trano",
+          "mg": "trano",
+          "en": "house, home",
+          "mg_tsm": "tragno",
+          "note": "'Mipetraka aiza ianao?' = Where do you live?"
+        },
+        {
+          "id": "tranobe",
+          "mg": "tranobe",
+          "en": "main room, living room",
+          "mg_tsm": "tragnobe",
+          "note": "The 'big house' room where guests are received."
+        },
+        {
+          "id": "tafo",
+          "mg": "tafo / tafon-trano",
+          "en": "roof",
+          "note": "'Tafo bozaka' = thatched roof; 'tafo taila' = tiled roof."
+        },
+        {
+          "id": "tafo_bozaka",
+          "mg": "tafo bozaka",
+          "en": "thatched roof"
+        },
+        {
+          "id": "tafo_taila",
+          "mg": "tafo taila",
+          "en": "tiled roof",
+          "mg_tsm": "tafo tanimanga",
+          "note": "Also 'tafo tanimanga' = earthenware-tile roof (Tsimihety)."
+        },
+        {
+          "id": "varavarana",
+          "mg": "varavarana",
+          "en": "door",
+          "mg_tsm": "tamiagna",
+          "note": "'Mikatona ny varavarana' = the door closes."
+        },
+        {
+          "id": "varavarankely",
+          "mg": "varavarankely",
+          "en": "window",
+          "note": "Lit. 'little door' — a memorable nickname!"
+        },
+        {
+          "id": "vavahady",
+          "mg": "vavahady",
+          "en": "gate",
+          "note": "'Misokatra ny vavahady' = the gate is open."
+        },
+        {
+          "id": "fefy",
+          "mg": "fefy",
+          "en": "fence, wall",
+          "mg_tsm": "lakôro",
+          "note": "Also 'efy' — 'Manamboatra fefy izy' = he repairs the fence."
+        },
+        {
+          "id": "rindrina",
+          "mg": "rindrina",
+          "en": "wall (interior)",
+          "mg_tsm": "rimbat",
+          "note": "The interior wall; fefy is the fence/wall outside."
+        },
+        {
+          "id": "tokontany",
+          "mg": "tokontany",
+          "en": "courtyard, yard",
+          "note": "'Malalaka ny tokontany' = the yard is spacious."
+        },
+        {
+          "id": "zaridaina",
+          "mg": "zaridaina",
+          "en": "garden",
+          "note": "The decorative garden, as opposed to the practical tokontany."
+        },
+        {
+          "id": "lalana",
+          "mg": "làlana",
+          "en": "path, road",
+          "mg_tsm": "làlagna",
+          "note": "'Ratsy ny làlana' = the road is bad; 'Tsara ny làlana' = the road is good."
+        },
+        {
+          "id": "arabe",
+          "mg": "arabe",
+          "en": "street (paved, in town)",
+          "note": "From 'arabe' — city streets."
+        },
+        {
+          "id": "rihana",
+          "mg": "rihana",
+          "en": "floor, story (of a multi-level house)",
+          "note": "For multi-level houses; Tsimihety borrows 'etazy' (from French etage)."
+        },
+        {
+          "id": "tohatra",
+          "mg": "tohatra",
+          "en": "stairs, staircase",
+          "mg_tsm": "escaliér",
+          "note": "'Tsidina ny tohatra' = climb the stairs."
+        },
+        {
+          "id": "lavarangana",
+          "mg": "lavarangana",
+          "en": "balcony, veranda",
+          "mg_tsm": "rangalava",
+          "note": "The evening sitting place."
+        },
+        {
+          "id": "farafara",
+          "mg": "farafara",
+          "en": "bed frame"
+        },
+        {
+          "id": "fandriana",
+          "mg": "fandriana",
+          "en": "bed",
+          "mg_tsm": "fandriagna",
+          "note": "'Mampirina fandriana' = to make the bed (Bako theme 13)."
+        },
+        {
+          "id": "kidoro",
+          "mg": "kidoro",
+          "en": "mattress"
+        },
+        {
+          "id": "ondana",
+          "mg": "ondana",
+          "en": "pillow"
+        },
+        {
+          "id": "bodofotsy",
+          "mg": "bodofotsy",
+          "en": "blanket(s)",
+          "note": "Lit.'white cloth' (bodo = cloth, fotsy = white)."
+        },
+        {
+          "id": "servieta",
+          "mg": "servieta",
+          "en": "towel"
+        },
+        {
+          "id": "jiro",
+          "mg": "jiro",
+          "en": "light, lamp"
+        },
+        {
+          "id": "lay",
+          "mg": "lay",
+          "en": "mosquito net",
+          "note": "An absolute must-have on the coasts in malaria season — 'Mandry ambany lay' = sleep under a net."
+        },
+        {
+          "id": "zinga",
+          "mg": "zinga",
+          "en": "plastic mug",
+          "note": "Used to scoop water for bucket baths — very common household item."
+        },
+        {
+          "id": "sio_house",
+          "mg": "siô",
+          "en": "bucket",
+          "note": "Also used for fetching water: 'maka rano' = fetch water (Bako theme 13)."
+        },
+        {
+          "id": "fatapera",
+          "mg": "fatapera",
+          "en": "charcoal stove",
+          "note": "Where the rice is cooked: 'Manokom-bary olona' = 8 pm on Bako's clock."
+        },
+        {
+          "id": "latabatra_house",
+          "mg": "latabatra",
+          "en": "table"
+        },
+        {
+          "id": "seza_house",
+          "mg": "seza",
+          "en": "chair",
+          "mg_tsm": "sezy"
+        },
+        {
+          "id": "tsihy_house",
+          "mg": "tsihy",
+          "en": "woven mat (floor mat)",
+          "note": "Traditional woven palm-leaf sitting/sleeping mat."
+        },
+        {
+          "id": "mipetraka",
+          "mg": "mipetraka",
+          "en": "to live, to reside",
+          "note": "'Mipetraka eto Antananarivo aho' = I live in Antananarivo."
+        },
+        {
+          "id": "lehibe",
+          "mg": "lehibe",
+          "en": "big, large",
+          "mg_tsm": "geda",
+          "note": "'Lehibe ny trano' = the house is big."
+        },
+        {
+          "id": "kely_house",
+          "mg": "kely",
+          "en": "small",
+          "mg_tsm": "hely",
+          "note": "'Kely ny vavahady' = the gate is small."
+        },
+        {
+          "id": "avo",
+          "mg": "avo",
+          "en": "tall, high",
+          "mg_tsm": "ambo",
+          "note": "'Avo ny trano' = the house is tall."
+        },
+        {
+          "id": "iva",
+          "mg": "iva",
+          "en": "low, short (height)",
+          "note": "'Iva ny varavarana' = the door is low — mind your head!"
+        },
+        {
+          "id": "malalaka",
+          "mg": "malalaka",
+          "en": "spacious, roomy"
+        },
+        {
+          "id": "tery",
+          "mg": "tery",
+          "en": "narrow, cramped"
+        },
+        {
+          "id": "madio",
+          "mg": "madio",
+          "en": "clean",
+          "note": "'Madio ny trano' = the house is clean."
+        },
+        {
+          "id": "maloto",
+          "mg": "maloto",
+          "en": "dirty",
+          "note": "'Maloto ny làlana' = the road is dirty."
+        },
+        {
+          "id": "simba",
+          "mg": "simba",
+          "en": "broken, damaged",
+          "mg_tsm": "maratra",
+          "note": "'Simba ny varavarankely' = the window is broken."
+        },
+        {
+          "id": "mivoha",
+          "mg": "mivoha",
+          "en": "to be open (door/gate)",
+          "mg_tsm": "misokatra",
+          "note": "'Misokatra' is the everyday equivalent."
+        },
+        {
+          "id": "mamoha",
+          "mg": "mamoha",
+          "en": "to open (something)",
+          "mg_tsm": "manokatra",
+          "note": "'Manokatra ny varavarana' = open the door."
+        },
+        {
+          "id": "mikatona",
+          "mg": "mikatona",
+          "en": "to be closed (door)",
+          "mg_tsm": "mifôdy",
+          "note": "'Mikatona ny varavarana' = the door is closed."
+        },
+        {
+          "id": "manakatona",
+          "mg": "manakatona",
+          "en": "to close (something)",
+          "note": "manakatona ny varavarana = close the door."
+        },
+        {
+          "id": "mihidy",
+          "mg": "mihidy",
+          "en": "to be locked",
+          "mg_tsm": "migala",
+          "note": "'Mihidy ny trano' = the house is locked."
+        },
+        {
+          "id": "manidy",
+          "mg": "manidy",
+          "en": "to lock (something)",
+          "mg_tsm": "managala",
+          "note": "'Manidy trano izy' = he locks the house."
+        },
+        {
+          "id": "manamboatra",
+          "mg": "manamboatra",
+          "en": "to repair, to fix"
+        },
+        {
+          "id": "manao_trano",
+          "mg": "manao trano",
+          "en": "to build a house",
+          "mg_tsm": "mitsabo trano",
+          "note": "Bako: 'Manao = manamboatra (off) / mitsabo (tsm)' = to build."
+        },
+        {
+          "id": "manadio_trano",
+          "mg": "manadio trano",
+          "en": "to clean the house"
+        },
+        {
+          "id": "manofa",
+          "mg": "manofa / mamondro",
+          "en": "to rent",
+          "note": "'Manofa trano aho' = I rent a house."
+        },
+        {
+          "id": "entana",
+          "mg": "entana",
+          "en": "things, belongings, luggage",
+          "note": "Key for travel: 'entako' = My things."
+        }
+      ],
+      "culture_notes": [
+        "Traditional house doors face west so the house benefits from sunlight until sunset (Bako theme 2).",
+        "The size of a town is described by its roofs or kitchens ('tanana'/'vohitra'), and the cardinal points (North avaratra, South atsimo, East atsinanana, West andrefana) are the default orientation system.",
+        "Remove your hat when entering a house, during the national anthem, or when meeting a funeral procession (Bako theme 6)."
+      ]
+    },
+    {
+      "id": "directions_places",
+      "title": "Directions & Places — Fitarahirahana sy Toerana",
+      "curriculum_week": [
+        6
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_6.mp3"
+      ],
+      "bako_lessons": [
+        "theme 11a",
+        "theme 11b",
+        "theme 11d",
+        "gram 14a"
+      ],
+      "words": [
+        {
+          "id": "aiza",
+          "mg": "Aiza?",
+          "en": "Where?",
+          "note": "'Aiza ny kabone?' = Where is the toilet? (Peace Corps Lesson 6)."
+        },
+        {
+          "id": "mankaiza",
+          "mg": "Mankaiza?",
+          "en": "To where? / going where?",
+          "note": "'Mandeha aiza ianao?' = Where are you going? — THE street greeting."
+        },
+        {
+          "id": "avy_aiza",
+          "mg": "Avy aiza?",
+          "en": "From where?",
+          "note": "'Avy aiza ity fiarandalamby ity?' = Where does this train come from?"
+        },
+        {
+          "id": "ankavanana",
+          "mg": "ankavanana",
+          "en": "to the right",
+          "mg_tsm": null,
+          "note": "'Mihodina miankavanana' = turn right."
+        },
+        {
+          "id": "ankavia",
+          "mg": "ankavia",
+          "en": "to the left",
+          "mg_tsm": "ankavia",
+          "note": "'Mihodina miankavia' = turn left."
+        },
+        {
+          "id": "mahitsy",
+          "mg": "mahitsy",
+          "en": "straight ahead",
+          "note": "'Mandeha mahitsy' = go straight — the core direction command (curriculum Week 6)."
+        },
+        {
+          "id": "mihodina",
+          "mg": "mihodina",
+          "en": "to turn"
+        },
+        {
+          "id": "ato",
+          "mg": "ato",
+          "en": "here (very near)",
+          "note": "ato (near) / ao (mid) / any (far) — the three-place system (Bako gram 14a)."
+        },
+        {
+          "id": "ao",
+          "mg": "ao",
+          "en": "there (middle distance)"
+        },
+        {
+          "id": "any",
+          "mg": "any",
+          "en": "there, over there (far away)"
+        },
+        {
+          "id": "atỳ",
+          "mg": "atỳ",
+          "en": "right here (emphatic near)",
+          "note": "'Atỳ' with accent marks shows proximity: atỳ (here-very-near), ao (there-mid-range), any (there-far)."
+        },
+        {
+          "id": "akaiky",
+          "mg": "akaiky",
+          "en": "near, nearby",
+          "mg_tsm": "marigny",
+          "note": "'Akaiky ny tsena' = the market is near."
+        },
+        {
+          "id": "lavitra",
+          "mg": "lavitra",
+          "en": "far, far away",
+          "mg_tsm": "lavitry",
+          "note": "'Lavitra be' = very far."
+        },
+        {
+          "id": "avaratra",
+          "mg": "avaratra",
+          "en": "north",
+          "note": "Malagasy orient by the cardinal points far more than by left/right (Bako theme 11a)."
+        },
+        {
+          "id": "atsimo",
+          "mg": "atsimo",
+          "en": "south"
+        },
+        {
+          "id": "atsinanana",
+          "mg": "atsinanana",
+          "en": "east"
+        },
+        {
+          "id": "andrefana",
+          "mg": "andrefana",
+          "en": "west"
+        },
+        {
+          "id": "mianavaratra",
+          "mg": "mianavaratra",
+          "en": "to go north",
+          "mg_tsm": "magnavaratra",
+          "note": "mian- + cardinal point = go toward (Bako theme 11a)."
+        },
+        {
+          "id": "mianatsimo",
+          "mg": "mianatsimo",
+          "en": "to go south",
+          "mg_tsm": "magnatsimo"
+        },
+        {
+          "id": "miatsinanana",
+          "mg": "miatsinanana",
+          "en": "to go east"
+        },
+        {
+          "id": "miankandrefana",
+          "mg": "miankandrefana",
+          "en": "to go west",
+          "mg_tsm": "magnandrefana"
+        },
+        {
+          "id": "lalana_dir",
+          "mg": "làlana",
+          "en": "road, way",
+          "mg_tsm": "làlagna",
+          "note": "'Manakory ny làlana?' = How is the road? Answer: 'Ratsy ny làlana.' (the road is bad)."
+        },
+        {
+          "id": "arabe_dir",
+          "mg": "arabe",
+          "en": "street, avenue",
+          "note": "Paved streets in towns."
+        },
+        {
+          "id": "hitsin_dalana",
+          "mg": "hitsin-dàlana",
+          "en": "shortcut",
+          "note": "Lit. 'cut-road' — also 'làlamanitsy' (straight road)."
+        },
+        {
+          "id": "lalantany",
+          "mg": "làlantany",
+          "en": "dirt track, unpaved road"
+        },
+        {
+          "id": "lalankely",
+          "mg": "làlankely",
+          "en": "alley, small path"
+        },
+        {
+          "id": "malama",
+          "mg": "malama",
+          "en": "muddy, slippery",
+          "mg_tsm": "malamatra",
+          "note": "'Malama ny làlana' = the road is muddy."
+        },
+        {
+          "id": "mamotaka",
+          "mg": "mamotaka",
+          "en": "very slippery",
+          "mg_tsm": "magôdra"
+        },
+        {
+          "id": "maina_dir",
+          "mg": "maina",
+          "en": "dry (of a road)",
+          "mg_tsm": "maigny",
+          "note": "'Maina ny làlana' = the road is dry."
+        },
+        {
+          "id": "tapaka",
+          "mg": "tapaka",
+          "en": "cut off, broken (road)",
+          "note": "'Tapaka ny làlana' = the road is cut off — you need a plan B!"
+        },
+        {
+          "id": "mikitoantoana",
+          "mg": "mikitoantoana",
+          "en": "bumpy",
+          "note": "'Mikitoantoana ny làlana' = the road is bumpy."
+        },
+        {
+          "id": "tanana_place",
+          "mg": "tanana",
+          "en": "town, city",
+          "note": "Watch out: tanana (town) vs tànana (hand) vs tanàna (spelled) — context decides!"
+        },
+        {
+          "id": "vohitra",
+          "mg": "vohitra",
+          "en": "village"
+        },
+        {
+          "id": "tsena_place",
+          "mg": "tsena",
+          "en": "market"
+        },
+        {
+          "id": "hopitaly_place",
+          "mg": "hopitaly",
+          "en": "hospital"
+        },
+        {
+          "id": "banky",
+          "mg": "banky",
+          "en": "bank",
+          "note": "Loanword from English 'bank'."
+        },
+        {
+          "id": "fivoriam_bola",
+          "mg": "fivarotam-bola",
+          "en": "exchange office / forex"
+        },
+        {
+          "id": "fivarotana",
+          "mg": "fivarotana",
+          "en": "shop, store",
+          "note": "'Mivarotra' = to sell; the place = fivarotana."
+        },
+        {
+          "id": "fivarotam_be",
+          "mg": "fivarotam-be",
+          "en": "supermarket",
+          "note": "The 'big shop' — cities have fivarotam-be."
+        },
+        {
+          "id": "hotely",
+          "mg": "hotely",
+          "en": "hotel"
+        },
+        {
+          "id": "birao",
+          "mg": "birao",
+          "en": "office, bureau"
+        },
+        {
+          "id": "sekoly",
+          "mg": "sekoly",
+          "en": "school",
+          "note": "'Mandeha mianatra ny zaza' = the children go to school."
+        },
+        {
+          "id": "tondro",
+          "mg": "tondroy!",
+          "en": "Point to ___!",
+          "note": "'Tondroy ny latabatra' = point to the table — TPR drill."
+        },
+        {
+          "id": "eto",
+          "mg": "eto",
+          "en": "here (of position)",
+          "note": "'Mipetraka eto aho' = I live here."
+        },
+        {
+          "id": "erety",
+          "mg": "erety",
+          "en": "around here"
+        },
+        {
+          "id": "any_amin",
+          "mg": "any amin'ny ___",
+          "en": "over at the ___",
+          "note": "Distance word + amin'ny + place: any amin'ny tsena = at the market (far)."
+        },
+        {
+          "id": "aminny",
+          "mg": "amin'ny ___",
+          "en": "at the ___ (time or place)",
+          "note": "The all-purpose preposition: amin'ny Zoma amin'ny efatra = on Friday at four."
+        }
+      ]
+    },
+    {
+      "id": "daily_routine",
+      "title": "Daily Routine — Ny Andavanandro",
+      "curriculum_week": [
+        9,
+        10
+      ],
+      "bako_lessons": [
+        "theme 13",
+        "theme 14a",
+        "theme 14b"
+      ],
+      "words": [
+        {
+          "id": "andavanandro",
+          "mg": "andavanandro",
+          "en": "everyday, daily, the daily routine",
+          "note": "Ny andavanandro = the day-to-day."
+        },
+        {
+          "id": "mifoha_r",
+          "mg": "mifoha",
+          "en": "to wake up",
+          "mg_tsm": "mionjogno",
+          "note": "'Mifohana amin'ny enina maraina aho' = I wake at 6 am."
+        },
+        {
+          "id": "misasa",
+          "mg": "misasa",
+          "en": "to wash (oneself)",
+          "mg_tsm": "misandry / manasa aigny",
+          "note": "'Manasa tena' is the fuller form."
+        },
+        {
+          "id": "mandro",
+          "mg": "mandro",
+          "en": "to bathe, shower",
+          "mg_tsm": "miseky",
+          "note": "Bucket-bath (with a sio) is the norm outside cities."
+        },
+        {
+          "id": "miakanjo",
+          "mg": "miakanjo",
+          "en": "to get dressed",
+          "mg_tsm": "magnano ankanjo",
+          "note": "Also 'manao akanjo'."
+        },
+        {
+          "id": "misakafo_r",
+          "mg": "misakafo",
+          "en": "to have a meal",
+          "mg_tsm": "homagna",
+          "note": "Breakfast/lunch/dinner = misakafo maraina/atoandro/hariva."
+        },
+        {
+          "id": "miasa",
+          "mg": "miasa",
+          "en": "to work",
+          "note": "'Mandeha miasa aho' = I go to work (Bako theme 14: mandeha + verb = go do)."
+        },
+        {
+          "id": "mianatra",
+          "mg": "mianatra",
+          "en": "to study, learn",
+          "note": "'Mianatra teny malagasy aho' = I'm learning Malagasy."
+        },
+        {
+          "id": "mody",
+          "mg": "mody",
+          "en": "to go home",
+          "note": "'Mody omby' = the zebus come home (5 pm, Bako's clock)."
+        },
+        {
+          "id": "matory_r",
+          "mg": "matory",
+          "en": "to sleep, be asleep",
+          "note": "'Mandeha matory ny zaza' = the child goes to sleep."
+        },
+        {
+          "id": "mandeha_matory",
+          "mg": "mandeha mandry",
+          "en": "to go to bed",
+          "mg_tsm": "mandeha mandry",
+          "note": "Lit. 'go lie down' (Bako theme 14)."
+        },
+        {
+          "id": "mandeha",
+          "mg": "mandeha",
+          "en": "to go, to walk, to travel",
+          "note": "'Mandeha + transport' = to go by (Bako theme 15): mandeha tongotra = go on foot."
+        },
+        {
+          "id": "mandeha_tongotra",
+          "mg": "mandeha tongotra",
+          "en": "to go on foot"
+        },
+        {
+          "id": "mandeha_miasa",
+          "mg": "mandeha miasa",
+          "en": "to go to work"
+        },
+        {
+          "id": "mandeha_mianatra",
+          "mg": "mandeha mianatra",
+          "en": "to go to school"
+        },
+        {
+          "id": "miala_sasatra",
+          "mg": "miala sasatra",
+          "en": "to rest, take a break",
+          "mg_tsm": "magnala disaka"
+        },
+        {
+          "id": "maka_aina",
+          "mg": "maka aina",
+          "en": "to rest, take a rest"
+        },
+        {
+          "id": "miborosy_nify",
+          "mg": "miborosy nify",
+          "en": "to brush one's teeth"
+        },
+        {
+          "id": "manadio_trano_r",
+          "mg": "manadio trano",
+          "en": "to clean the house"
+        },
+        {
+          "id": "manasa_trano",
+          "mg": "manasa trano",
+          "en": "to mop/wash the floor"
+        },
+        {
+          "id": "manafa_trano",
+          "mg": "manafa trano",
+          "en": "to sweep the floor"
+        },
+        {
+          "id": "manary_fako",
+          "mg": "manary fako",
+          "en": "to take out the trash",
+          "mg_tsm": "magnary ahitry"
+        },
+        {
+          "id": "manasa_lamba",
+          "mg": "manasa lamba",
+          "en": "to do the laundry"
+        },
+        {
+          "id": "manahy_lamba",
+          "mg": "manahy lamba",
+          "en": "to hang out the clothes to dry",
+          "mg_tsm": "manapy lamba"
+        },
+        {
+          "id": "mamalona_lamba",
+          "mg": "mamalona lamba",
+          "en": "to fold the laundry",
+          "mg_tsm": "mamalogno lamba"
+        },
+        {
+          "id": "mipasoka",
+          "mg": "mipasoka",
+          "en": "to iron (clothes)",
+          "mg_tsm": "mipasy"
+        },
+        {
+          "id": "mampirina_fandriana",
+          "mg": "mampirina fandriana",
+          "en": "to make the bed",
+          "mg_tsm": "manamboatra fandriagna"
+        },
+        {
+          "id": "mampirin_trano",
+          "mg": "mampirin-trano",
+          "en": "to tidy up",
+          "note": "Lit. 'make the house stand neat' (Bako theme 13)."
+        },
+        {
+          "id": "mitoto_vary",
+          "mg": "mitoto vary",
+          "en": "to pound rice",
+          "mg_tsm": "mandisa vary",
+          "note": "Real work with a heavy mortar before cooking — still done in villages."
+        },
+        {
+          "id": "maka_rano",
+          "mg": "maka rano",
+          "en": "to fetch water",
+          "mg_tsm": "mala-drano",
+          "note": "At the pump or the river with a bucket on the head."
+        },
+        {
+          "id": "maka_kitay",
+          "mg": "maka kitay",
+          "en": "to pick/gather firewood",
+          "mg_tsm": "malaka hazomoaty"
+        },
+        {
+          "id": "mitaiza",
+          "mg": "mitaiza",
+          "en": "to raise, bring up (children)"
+        },
+        {
+          "id": "manjaitra",
+          "mg": "manjaitra",
+          "en": "to sew"
+        },
+        {
+          "id": "mandrary",
+          "mg": "mandrary",
+          "en": "to weave (baskets, mats)"
+        },
+        {
+          "id": "mamboly",
+          "mg": "mamboly",
+          "en": "to plant, farm, cultivate"
+        },
+        {
+          "id": "milalao",
+          "mg": "milalao",
+          "en": "to play",
+          "mg_tsm": "misôma",
+          "note": "Children's play mirrors adult work: boys mold clay zebu, girls play tsikonona (Bako theme 13)."
+        },
+        {
+          "id": "mijery_fahitalavitra",
+          "mg": "mijery fahitalavitra",
+          "en": "to watch TV",
+          "note": "Also 'mizaha tele' (tsm)."
+        },
+        {
+          "id": "hafa",
+          "mg": "hafa",
+          "en": "other, different"
+        },
+        {
+          "id": "tsikonona",
+          "mg": "tsikonona",
+          "en": "girls' cooking game (cooking in small quantities)"
+        },
+        {
+          "id": "omby_tanimanga",
+          "mg": "omby tanimanga",
+          "en": "boys' clay-zebu game",
+          "note": "Lit. 'red-earth zebu' (Bako theme 13) — a cultural gem."
+        }
+      ]
+    },
+    {
+      "id": "verbs_grammar",
+      "title": "Core Verbs & Building Blocks — Matoanteny Fototra",
+      "curriculum_week": [
+        1,
+        4,
+        9
+      ],
+      "peace_corps_audio": [
+        "MG_Malagasy_Lesson_5.mp3",
+        "MG_Malagasy_Lesson_7.mp3"
+      ],
+      "bako_lessons": [
+        "gram 1",
+        "gram 2",
+        "int 3"
+      ],
+      "words": [
+        {
+          "id": "aho",
+          "mg": "aho",
+          "en": "I, me (after the verb)",
+          "note": "'Mihinana vary aho' = I eat rice. Also 'izaho' in formal/written Malagasy."
+        },
+        {
+          "id": "izaho",
+          "mg": "izaho",
+          "en": "I (formal/emphatic form of aho)"
+        },
+        {
+          "id": "ianao",
+          "mg": "ianao",
+          "en": "you (one person)"
+        },
+        {
+          "id": "izy",
+          "mg": "izy / izy",
+          "en": "he, she",
+          "note": "One word for he AND she — no grammatical gender in Malagasy."
+        },
+        {
+          "id": "isika",
+          "mg": "isika",
+          "en": "we (inclusive — includes the listener)",
+          "note": "'Isika' and 'izahay' are BOTH 'we', but isika includes the person you're talking to — a fun distinction for an English speaker!"
+        },
+        {
+          "id": "izahay",
+          "mg": "izahay",
+          "en": "we (exclusive — leaves out the listener)",
+          "note": "'Izahay' excludes the person you're talking to."
+        },
+        {
+          "id": "ianareo",
+          "mg": "ianareo",
+          "en": "you (plural)",
+          "mg_tsm": "areo",
+          "note": "Tsimihety commonly uses just 'areo' (Bako's lessons)."
+        },
+        {
+          "id": "izy_ireo",
+          "mg": "izy ireo",
+          "en": "they",
+          "mg_tsm": "zareo",
+          "note": "Tsimihety: 'zareo'."
+        },
+        {
+          "id": "iza",
+          "mg": "iza?",
+          "en": "who?",
+          "note": "'Iza ianao?' = who are you?; 'Iza no anaranao?' = what is your name?"
+        },
+        {
+          "id": "inona",
+          "mg": "inona?",
+          "en": "what?",
+          "note": "'Inona no vaovao?' = What's new?"
+        },
+        {
+          "id": "aiza_q",
+          "mg": "aiza?",
+          "en": "where?",
+          "note": "'Aiza ny hopitaly?' = Where is the hospital?"
+        },
+        {
+          "id": "firy_q",
+          "mg": "firy?",
+          "en": "how many?"
+        },
+        {
+          "id": "aminny_firy",
+          "mg": "amin'ny firy?",
+          "en": "at what time?"
+        },
+        {
+          "id": "oviana",
+          "mg": "oviana?",
+          "en": "when?",
+          "note": "'Oviana ianao no tonga?' = When did you arrive? (Peace Corps L7). Rehefa = when (non-question)."
+        },
+        {
+          "id": "ohatrionona",
+          "mg": "ohatrinona?",
+          "en": "how much (price)?",
+          "note": "'Ohatrinona ity?' = How much is this?"
+        },
+        {
+          "id": "fa_maninona",
+          "mg": "fa maninona?",
+          "en": "why?"
+        },
+        {
+          "id": "ahoana",
+          "mg": "ahoana?",
+          "en": "how?",
+          "note": "'Ahoana ny weekend?' = How was the weekend? (Peace Corps L7)."
+        },
+        {
+          "id": "manana_v",
+          "mg": "manana",
+          "en": "to have",
+          "note": "Present manana, past nanana, future hanana."
+        },
+        {
+          "id": "manao",
+          "mg": "manao",
+          "en": "to do, to make",
+          "note": "'Manao inona ianareo?' = What are you (pl.) doing?"
+        },
+        {
+          "id": "mandeha_v",
+          "mg": "mandeha",
+          "en": "to go, to walk",
+          "note": "'Ndao handeha!' = let's go."
+        },
+        {
+          "id": "mihinana_v",
+          "mg": "mihinana",
+          "en": "to eat",
+          "note": "Past nihinana, future hihinana (curriculum Week 9 tense rules)."
+        },
+        {
+          "id": "misotro_v",
+          "mg": "misotro",
+          "en": "to drink"
+        },
+        {
+          "id": "mivoaka",
+          "mg": "mivoaka",
+          "en": "to go out, to exit",
+          "note": "'Te hivoaka aho.' = I want to go out (Peace Corps L6)."
+        },
+        {
+          "id": "miditra",
+          "mg": "miditra",
+          "en": "to come in, to enter"
+        },
+        {
+          "id": "miainga",
+          "mg": "miainga",
+          "en": "to set off, to leave (on a journey)",
+          "note": "Taxi-brousse driver's call: 'Miainga isika!' = we're off!"
+        },
+        {
+          "id": "miteny",
+          "mg": "miteny",
+          "en": "to speak, talk",
+          "note": "'Miteny malagasy ve ianao?' = Do you speak Malagasy? Answer: 'Kely fotsiny.' = just a little."
+        },
+        {
+          "id": "mianatra_v",
+          "mg": "mianatra",
+          "en": "to learn, to study",
+          "mg_tsm": "mianatra",
+          "note": "The project's own name: 'Vahiny Mianatra Malagasy'."
+        },
+        {
+          "id": "mahay",
+          "mg": "mahay",
+          "en": "to know how to, to be able",
+          "note": "'Tsy mahay miteny malagasy aho.' = I don't speak Malagasy well."
+        },
+        {
+          "id": "mahalala",
+          "mg": "mahalala",
+          "en": "to know (a person or thing)"
+        },
+        {
+          "id": "mahita",
+          "mg": "mahita",
+          "en": "to see"
+        },
+        {
+          "id": "mihaino",
+          "mg": "mihaino",
+          "en": "to hear, listen (to)",
+          "note": "'Henoy dia averimbereno' = hear it and repeat (Bako's drill)."
+        },
+        {
+          "id": "manantena",
+          "mg": "manantena",
+          "en": "to hope, to look forward to",
+          "note": "'Manantena fihaonana aminao aho.' = hope to meet again."
+        },
+        {
+          "id": "mila_v",
+          "mg": "mila",
+          "en": "to need",
+          "note": "'Mila ___ aho azafady' = I need ___, please."
+        },
+        {
+          "id": "te",
+          "mg": "te",
+          "en": "to want (short form)",
+          "note": "te + h-verb: 'te hisotro' = want to drink (curriculum Week 5)."
+        },
+        {
+          "id": "tia",
+          "mg": "tia",
+          "en": "to like, to love",
+          "note": "'Tia dite izy' = he likes tea (Peace Corps L5)."
+        },
+        {
+          "id": "tsy_tia",
+          "mg": "tsy tia",
+          "en": "to not like, to hate",
+          "note": "'Tsy tia hena aho' = I don't like meat (Peace Corps L6). 'Halako' = I hate it."
+        },
+        {
+          "id": "mividy_v",
+          "mg": "mividy",
+          "en": "to buy",
+          "note": "Past nividy, future hividy."
+        },
+        {
+          "id": "mivarotra_v",
+          "mg": "mivarotra",
+          "en": "to sell"
+        },
+        {
+          "id": "manome",
+          "mg": "manome",
+          "en": "to give",
+          "note": "Imperative: 'Omeo aho azafady' = give me, please."
+        },
+        {
+          "id": "mandray",
+          "mg": "mandray",
+          "en": "to receive, to welcome",
+          "note": "'Faly mandray anao' = happy to welcome you (Bako intro 3)."
+        },
+        {
+          "id": "manomboha",
+          "mg": "manomboka",
+          "en": "to begin, to start"
+        },
+        {
+          "id": "manamarana",
+          "mg": "manamarana",
+          "en": "to finish, to end"
+        },
+        {
+          "id": "asa_verb",
+          "mg": "miasa",
+          "en": "to work"
+        },
+        {
+          "id": "matory_v",
+          "mg": "matory",
+          "en": "to sleep"
+        },
+        {
+          "id": "faly",
+          "mg": "faly",
+          "en": "happy, glad",
+          "note": "'Faly izy.' = He/she is happy."
+        },
+        {
+          "id": "mampalahelo",
+          "mg": "Mampalahelo izany.",
+          "en": "That's sad."
+        },
+        {
+          "id": "mahagaga",
+          "mg": "Mahagaga izany.",
+          "en": "That's surprising!"
+        },
+        {
+          "id": "mahasosotra",
+          "mg": "Mahasosotra izany.",
+          "en": "That's shocking!"
+        },
+        {
+          "id": "mandreraka",
+          "mg": "Mandreraka izany.",
+          "en": "It's tiring."
+        },
+        {
+          "id": "mampatahotra",
+          "mg": "Mampatahotra izany.",
+          "en": "That's frightening!"
+        },
+        {
+          "id": "mampihomehy",
+          "mg": "Mampihomehy izany.",
+          "en": "Amusing! Hilarious!"
+        },
+        {
+          "id": "mampiahiahy",
+          "mg": "Mampiahiahy izany.",
+          "en": "That's doubtful."
+        },
+        {
+          "id": "mahakamo",
+          "mg": "Mahakamo izany.",
+          "en": "That's annoying! / lazy-making"
+        },
+        {
+          "id": "gaga",
+          "mg": "gaga",
+          "en": "surprised, astonished",
+          "note": "'Gaga ianao' = you are surprised."
+        },
+        {
+          "id": "malahelo",
+          "mg": "malahelo",
+          "en": "sad, poor",
+          "note": "Also = poor/humble in social contexts."
+        },
+        {
+          "id": "sosotra",
+          "mg": "sosotra",
+          "en": "annoyed, shocked"
+        },
+        {
+          "id": "matahotra",
+          "mg": "matahotra",
+          "en": "afraid, frightened",
+          "note": "'Matahotra izireo' = they are afraid."
+        },
+        {
+          "id": "kamo",
+          "mg": "kamo",
+          "en": "lazy"
+        },
+        {
+          "id": "matoky",
+          "mg": "matoky",
+          "en": "to trust",
+          "note": "'Matoky anao aho' = I trust you."
+        },
+        {
+          "id": "tsy",
+          "mg": "tsy",
+          "en": "no, not (negation)",
+          "note": "Goes BEFORE the verb/adjective: 'tsy mihinana' = doesn't eat. First grammar of Week 4."
+        },
+        {
+          "id": "tsy_misy",
+          "mg": "tsisy",
+          "en": "there is not / nothing",
+          "note": "Tsy + misy fuse into tsisy."
+        },
+        {
+          "id": "misy",
+          "mg": "misy",
+          "en": "there is, there are",
+          "note": "'Misy mofo ve?' = is there bread?"
+        },
+        {
+          "id": "sy",
+          "mg": "sy",
+          "en": "and (joins nouns)",
+          "note": "Vary sy laoka = rice and laoka."
+        },
+        {
+          "id": "fa",
+          "mg": "fa",
+          "en": "but"
+        },
+        {
+          "id": "ary",
+          "mg": "ary",
+          "en": "and (changes subject in a list)"
+        },
+        {
+          "id": "no",
+          "mg": "no",
+          "en": "(subject marker for 'it is X that...')",
+          "note": "'___ no anarako' = my name is ___ (lit. 'it is ___ that is my name')."
+        },
+        {
+          "id": "ve_q",
+          "mg": "ve",
+          "en": "(yes-no question particle)",
+          "note": "Added at the end of a sentence."
+        },
+        {
+          "id": "rehefa",
+          "mg": "rehefa",
+          "en": "when (non-question), once, as soon as",
+          "note": "'Rehefa nahita ahy izy...' = when he saw me... (vs oviana?, the question word)."
+        },
+        {
+          "id": "kely_fotsiny",
+          "mg": "Kely fotsiny.",
+          "en": "Just a little.",
+          "note": "THE humble reply to 'Miteny malagasy ve ianao?' — worth memorizing early!"
+        },
+        {
+          "id": "betsaka_g",
+          "mg": "betsaka",
+          "en": "very many, much",
+          "note": "'Misaotra betsaka.' = thanks a lot."
+        },
+        {
+          "id": "koa",
+          "mg": "koa",
+          "en": "also, too, again",
+          "note": "'Misaotra ianao koa.' = thank you too."
+        },
+        {
+          "id": "indray",
+          "mg": "indray",
+          "en": "again",
+          "note": "Interchangeable with koa (Bako intro 1b)."
+        },
+        {
+          "id": "mba",
+          "mg": "mba",
+          "en": "softener word ('please, just...')",
+          "note": "Mba omeo = please give me; adds warmth to any request."
+        }
+      ],
+      "grammar_rules": [
+        "SENTENCE ORDER IS VERB + OBJECT + SUBJECT: 'Mihinana vary aho' literally = 'Eats rice I' = I eat rice. This is the single biggest habit-change for an English speaker (curriculum Week 4).",
+        "There is NO verb 'to be': pronouns and adjectives alone carry it — 'Mangatsiaka izy' = she/he/it is cold; 'aho' means both 'I' and 'I am'.",
+        "TENSE = FIRST LETTER ONLY: m- (present) → n- (past) → h- (future): mihinana → nihinana → hihinana. Only that first consonant changes (curriculum Week 9).",
+        "NEGATION with 'tsy' before the verb: 'Tsy mihinana vary aho' = I don't eat rice; 'Tsy faly izy' = she is not happy.",
+        "'Misy/Tsisy' = there is/there isn't: 'Misy atody ve?' = are there eggs? 'Tsisy madinika' = there's no change.",
+        "Adjectives STATE the quality directly: 'Mafana ny andro' = the weather is hot; no linking verb needed.",
+        "Two 'we's: isika (inclusive, includes the listener) vs izahay (exclusive, leaves the listener out) — one of the most charming features of Malagasy conversation (curriculum Week 2)."
+      ]
+    }
+  ]
+}
